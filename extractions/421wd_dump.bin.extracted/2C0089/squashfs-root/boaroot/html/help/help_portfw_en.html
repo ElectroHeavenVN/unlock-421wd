@@ -1,0 +1,30 @@
+<head>
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p>Port Forwarding Feature allows Lan-side hosts to be accessed from Internet (Note: External Port can not be special ports using for some services: tr069, http, https...).</p>
+<p><b>WAN Interface</b>: WAN Interface must be the interface using for Internet service (Note: As soon as you enable NAT feature in this WAN interface, Port Forwarding can work properly)
+<p><b>Port Forwarding Table</b>: Each row is corresponding to each Port Forwarding rule:</p><ul>
+    <li><b>Mapping name</b>: This field interfies one rule in Port forwarding table.</li>
+    <li><b>Protocol</b>: This is the protocol use for this rule.</li>
+    <li><b>Internal IP </b>: This is a IP Address of the device connected in LAN-side network.</li>
+    <li><b>Internal Port</b>: This is internal Port of this devices in LAN-side network.</li>
+    <li><b>External Port</b>: This is external port in WAN-side network (Internet) for ONT to have a mapping with internal port. Note: This port is excluded from the list of special port.</li>
+    <li><b>Status</b>: Enable or disbale the choosen rule.</li>
+    <li><b>Modify</b>: This feature help us modify currnent parameters.</li>
+    <li>Besides, in the beginning of row, there is a checkbox to choose the rules which need to be erased when we click button "DELETE".</li>
+</ul> 
+<p><b>Add form/ Edit form</b>: only display above Port Forwarding when clicking "ADD" button, or below the row which need to be modified when clicking "Modify" Button. In this form, users can choose:</p>
+<ul>
+    <li><b>Customize</b>: Configures the Port Forwarding parameters (Internal Port, External Port, Internal IP address, Mapping Name, Protocol).</li>
+    <li><b>Select Application</b>:Allow users to choose some specific service (DNS Server, FPT Server, IPSEC,...). The configuration will be automatically generated in Service Type, Protocol, Mapping Name, Internal port, External Port and users only need to fill IP Address field</li>
+
+</ul> 
+        
+</body>

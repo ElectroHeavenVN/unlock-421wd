@@ -1,0 +1,81 @@
+(venv) ehvn@ehvn-Latitude-E7240:~/dump$ binwalk -eM -l log.json 421wd_dump.bin
+[2026-06-28T08:07:35Z ERROR binwalk::extractors::common] Failed to execute command sasquatch["-le", "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/2C0089/squashfs_2C0089.sqsh"]: No such file or directory (os error 2)
+[2026-06-28T08:07:35Z ERROR binwalk::extractors::common] Failed to spawn external extractor for 'squashfs' signature: No such file or directory (os error 2)
+[2026-06-28T08:07:35Z ERROR binwalk::extractors::common] Failed to execute command sasquatch["-le", "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/2C0089/squashfs_2C0089.sqsh"]: No such file or directory (os error 2)
+[2026-06-28T08:07:35Z ERROR binwalk::extractors::common] Failed to spawn external extractor for 'squashfs' signature: No such file or directory (os error 2)
+[2026-06-28T08:07:35Z ERROR binwalk::extractors::common] Failed to execute command sasquatch["-le", "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1BC0F75/squashfs_1BC0F75.sqsh"]: No such file or directory (os error 2)
+[2026-06-28T08:07:35Z ERROR binwalk::extractors::common] Failed to spawn external extractor for 'squashfs' signature: No such file or directory (os error 2)
+[2026-06-28T08:07:36Z ERROR binwalk::extractors::common] Failed to execute command sasquatch["-le", "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1BC0F75/squashfs_1BC0F75.sqsh"]: No such file or directory (os error 2)
+[2026-06-28T08:07:36Z ERROR binwalk::extractors::common] Failed to spawn external extractor for 'squashfs' signature: No such file or directory (os error 2)
+
+                                                               /home/ehvn/dump/extractions/421wd_dump.bin
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+65536                              0x10000                            LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 60022 
+                                                                      bytes, uncompressed size: 202288 bytes
+262144                             0x40000                            gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 
+                                                                      bytes
+524544                             0x80100                            LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2359177 
+                                                                      bytes, uncompressed size: 6911616 bytes
+2883721                            0x2C0089                           SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1220, block 
+                                                                      size: 131072, image size: 16310867 bytes, created: 2022-06-02 03:10:45
+26738944                           0x1980100                          LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2362997 
+                                                                      bytes, uncompressed size: 6915712 bytes
+29101941                           0x1BC0F75                          SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1364, block 
+                                                                      size: 131072, image size: 18256743 bytes, created: 2025-07-08 03:49:08
+61341696                           0x3A80000                          JFFS2 filesystem, big endian, nodes: 6476, total size: 16648192 bytes
+111673344                          0x6A80000                          JFFS2 filesystem, big endian, nodes: 16, total size: 1968128 bytes
+233046016                          0xDE40000                          gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 
+                                                                      bytes
+233308160                          0xDE80000                          gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10619 
+                                                                      bytes
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[+] Extraction of lzma data at offset 0x10000 completed successfully
+[+] Extraction of gzip data at offset 0x40000 completed successfully
+[+] Extraction of lzma data at offset 0x80100 completed successfully
+[-] Extraction of squashfs data at offset 0x2C0089 failed!
+[+] Extraction of lzma data at offset 0x1980100 completed successfully
+[-] Extraction of squashfs data at offset 0x1BC0F75 failed!
+[+] Extraction of jffs2 data at offset 0x3A80000 completed successfully
+[+] Extraction of jffs2 data at offset 0x6A80000 completed successfully
+[+] Extraction of gzip data at offset 0xDE40000 completed successfully
+[+] Extraction of gzip data at offset 0xDE80000 completed successfully
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                               /home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5476452                            0x539064                           Linux version 3.18.21 (dungbd4@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Thu 
+                                                                      Jun 2 02:33:50 UTC 2022, has symbol table: false
+5487100                            0x53B9FC                           gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14255 
+                                                                      bytes
+5576755                            0x551833                           AES RCON
+6556224                            0x640A40                           CRC32 polynomial table, little endian
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[#] Extraction of linux_kernel data at offset 0x539064 declined
+[+] Extraction of gzip data at offset 0x53B9FC completed successfully
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                              /home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5476456                            0x539068                           Linux version 3.18.21 (hoangtu1@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP 
+                                                                      Tue Jun 24 02:51:28 UTC 2025, has symbol table: false
+5487132                            0x53BA1C                           gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14348 
+                                                                      bytes
+5576883                            0x5518B3                           AES RCON
+6556224                            0x640A40                           CRC32 polynomial table, little endian
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[#] Extraction of linux_kernel data at offset 0x539068 declined
+[+] Extraction of gzip data at offset 0x53BA1C completed successfully
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Analyzed 43 files for 111 file signatures (251 magic patterns) in 5.4 seconds
+(venv) ehvn@ehvn-Latitude-E7240:~/dump$ 
+
+

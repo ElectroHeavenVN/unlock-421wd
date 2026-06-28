@@ -1,0 +1,71 @@
+# auto-generated config file from /etc/config/dhcp
+# conf-file=/etc/dnsmasq.conf
+# dhcp-authoritative
+domain-needed
+log-queries=no
+# localise-queries
+# read-ethers
+# enable-ubus=dnsmasq.restricted_dns
+expand-hosts
+bind-dynamic
+local-service
+log-facility=/dev/null
+port=56
+# domain=lan
+# local=/lan/
+server=208.67.222.123
+address=/google.com/216.239.38.120
+address=/google.ad/216.239.38.120
+address=/google.ae/216.239.38.120
+address=/google.com.vn/216.239.38.120
+address=/www.google.com/216.239.38.120
+address=/www.google.ad/216.239.38.120
+address=/www.google.ae/216.239.38.120
+address=/www.google.com.vn/216.239.38.120
+address=/youtube.com/216.239.38.119
+address=/www.youtube.com/216.239.38.119
+address=/m.youtube.com/216.239.38.119
+address=/youtubei.googleapis.com/216.239.38.119
+address=/youtube.googleapis.com/216.239.38.119
+address=/www.youtube-nocookie.com/216.239.38.119
+address=/google.com/2001:4860:4802:32::78
+address=/google.ad/2001:4860:4802:32::78
+address=/google.ae/2001:4860:4802:32::78
+address=/google.com.vn/2001:4860:4802:32::78
+address=/www.google.com/2001:4860:4802:32::78
+address=/www.google.ad/2001:4860:4802:32::78
+address=/www.google.ae/2001:4860:4802:32::78
+address=/www.google.com.vn/2001:4860:4802:32::78
+address=/youtube.com/2001:4860:4802:32::78
+address=/www.youtube.com/2001:4860:4802:32::78
+address=/m.youtube.com/2001:4860:4802:32::78
+address=/youtubei.googleapis.com/2001:4860:4802:32::78
+address=/youtube.googleapis.com/2001:4860:4802:32::78
+address=/www.youtube-nocookie.com/2001:4860:4802:32::78
+auth-ttl=5
+max-ttl=5
+max-cache-ttl=5
+min-cache-ttl=5
+interface=br0
+# addn-hosts=/tmp/hosts
+# dhcp-leasefile=/tmp/restricted_dhcp.leases
+# resolv-file=/tmp/resolv.conf.d/resolv.conf.auto
+stop-dns-rebind
+rebind-localhost-ok
+# dhcp-broadcast=tag:needs-broadcast
+# conf-dir=/tmp/dnsmasq.d
+# user=dnsmasq
+# group=dnsmasq
+
+
+# dhcp-ignore-names=tag:dhcp_bogus_hostname
+# conf-file=/usr/share/dnsmasq/dhcpbogushostname.conf
+
+
+# bogus-priv
+# conf-file=/usr/share/dnsmasq/rfc6761.conf
+
+
+
+
+

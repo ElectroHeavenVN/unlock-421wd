@@ -1,0 +1,85 @@
+<head>
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+
+    </style>
+    </head>
+    <body>
+    <h3>Ipv4 Address</h3>
+    <p><strong>IPv4 Address</strong>:Configure IPv4 parameters:</p>
+    <ul>
+    <li>IP Address: Input IP address for ONT device and it is not in DHCP Address-asignment pool if DHCP feature is enabled (Default: 192.168.1.1).</li>
+    <li>IP Subnet Mask: An address mask helps us identify the Network ID portion of 32-bit IP address. Usually, it is 255.255.255.0.</li>
+    </ul>
+    <p><strong>DHCP</strong>: Device is configured with DHCP server(Dynamic Host Configuration Protocol).</p>
+    <ul>
+    <li>Enable/ Disable: This configuration illustrates the way to enable or disable DHCP server.  If you disable the Server, you must have another DHCP server within your network or you must configure the IP address of the computer manually</li>
+    <li>IP Address Range: This field specifies the range of address in the IP Address pool. By default, 192.168.1.1 - 192.168.1.254 is the default range of IP address.</li>
+    <li>Lease Time: This is the length of time that network user will be allowed to keep connecting to the ONT device with the current IP Address assigned by DHCP Server. The time range is 1÷3600 (min). The default value is 60 minutes.</li>
+    </ul>
+    <p><strong>DNS:</strong></p>
+    <ul>
+    <li><strong>Proxy</strong>: This option configures ONT as proxy server helping us resolve domain names </li>
+    <li><strong>Manual</strong>: This option help us assign IP Address and there are two way below to implement this</li>
+    <ul>
+    <li>Primary DNS: Input the DNS IP address provided by your ISP. Or consult your ISP, default: 8.8.8.8</li>
+    <li>Secondary DNS: You can input the IP Address of another DNS server if your ISP provides two DNS servers, default: 8.8.4.4</li>
+    </ul>
+    </li>
+    <li><strong>Wan Interface</strong>: It is automatically receive IP from Wan Interface and assigns this IP address to some hosts in LAN network</li>
+    </ul>
+    <p><strong>Static assignment for IP addresses</strong>: This option help us assign static IP addresses to some hosts in LAN networks. </p>
+    <ul>
+    <li><strong>IP Address</strong>: Input IP address and this IP must be in DHCP address pool taht we configure above.</li>
+    <li><strong>MAC Address</strong>: Input MAC address of device suppose to have connection with the ONT device.</li>
+    <li><strong>Add</strong>: Add new rules in statical IP assigned-address table</li>
+    </ul>
+    <h3>IPv6 Address</h3>
+    <p><strong>Router Advertisement configuration(RA):</strong>: Configure the Router Advertisement feature in ONT.</p>
+    <ul>
+    <li>SLAAC: Enable/ Disable: Enable of diable this feature.</li>
+    <li>Router Advertisement Mode:<br />
+    <ul>
+    <li>Automatic: Using parameters retrieving from Wan Interface.</li>
+    <ul>
+        <li>Prefix source: Choose WAN Interface to get parameters. By default, WAN interface is interface for Internet service</li>
+    </ul>
+    <li>Manual: Allow to change parameters during Router Advertisement process. This configuration below is recommended to be used by advance users:<br />
+    <ul>
+    <li>Prefix/Length: Prefix and prefix length to assign IPv6.</li>
+    <li>Preferred Lifetime and Valid Lifetime: the length of time that a valid address is preferred and the length of time that a address is valid.</li>
+    <li>The minimum time and the maximum time between 2 RA packets.</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    <p><strong>LAN</strong>: Configure DHCPv6 server for ONT to allocate IP address for hosts in LAN network.</p>
+    <ul>
+    <li>DHCPv6 server: Enable/ Disable: Enable or disable the DHCPv6 servers. If we disable the DHCPv6 server, you must have another DHCPv6 server within your network or you must configure the IPv6 address of the computer manually.</li>
+    <li>Configuration mode:
+    <ul>
+        <li>Manual: User configure DHCPv6 mannually. The configuration below is recommended to be used by advance users:
+        <ul>
+        <li>IPv6 format: Indetify IPv6 address format or Ipv6 address following EUI64 format.</li>
+        <li>Prefix/Length: Prefix and prefix length to assign IPv6.</li>
+        <li>Prefered Lifetime: the length of time that a valid address is preferred.</li>
+        <li>Valid Lifetime: the length of time that a address is valid.</li>
+        <li>Primary DNS and Secondary DNS: IPv6 address of the DNS servers.</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li>Automatic configuration for Prefix and DNS servers: Choose DNS and other paramters configured below</li>
+        <ul>
+            <li>DNS Server source: Choose WAN interface to get DNS paramters for IPv6 hosts. By default, WAN interface is the interface using for Internet</li>
+        </ul>
+        <li>Automatical configuration for DNS Server: Choose DNS followed by WAN Interface that is configured in "DNS Server Source "</li>
+    </ul>
+    <p>Click APPLY to save and execute the newly set parameters.</p>
+    </body>
+

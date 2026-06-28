@@ -1,0 +1,2770 @@
+[
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin",
+    "file_map": [
+      {
+        "offset": 65536,
+        "id": "37c79b2d-dc8c-4e0e-81a2-b92c49ae47ec",
+        "size": 60022,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 60022 bytes, uncompressed size: 202288 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 262144,
+        "id": "fe0f2ed3-f9a5-43ff-8907-04393e06e41c",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 524544,
+        "id": "187a9b6e-b355-423a-9649-b3da10f3b8be",
+        "size": 2359177,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2359177 bytes, uncompressed size: 6911616 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 2883721,
+        "id": "3d7d9e11-824a-4e3c-9c4b-c59365c909c1",
+        "size": 16310867,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1220, block size: 131072, image size: 16310867 bytes, created: 2022-06-02 03:10:45",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 26738944,
+        "id": "33655840-7725-4385-85e4-6f05a0a23c31",
+        "size": 2362997,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2362997 bytes, uncompressed size: 6915712 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 29101941,
+        "id": "dc2308b0-1317-48ff-90cc-d666df7c7fa4",
+        "size": 18256743,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1364, block size: 131072, image size: 18256743 bytes, created: 2025-07-08 03:49:08",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 61341696,
+        "id": "934ee8af-db2b-4640-a658-4acd885b8004",
+        "size": 16648192,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 6476, total size: 16648192 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 111673344,
+        "id": "a78397de-a90d-42ce-9b4f-8dddd6fd4924",
+        "size": 1968128,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 16, total size: 1968128 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233046016,
+        "id": "6e051943-f6ca-4d8b-882f-b1dc8a748458",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233308160,
+        "id": "beaf7c5c-f0dc-4c9c-9d0a-66b99ec49e60",
+        "size": 10619,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10619 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "3d7d9e11-824a-4e3c-9c4b-c59365c909c1": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/2C0089"
+      },
+      "a78397de-a90d-42ce-9b4f-8dddd6fd4924": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/6A80000"
+      },
+      "dc2308b0-1317-48ff-90cc-d666df7c7fa4": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1BC0F75"
+      },
+      "934ee8af-db2b-4640-a658-4acd885b8004": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000"
+      },
+      "6e051943-f6ca-4d8b-882f-b1dc8a748458": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE40000"
+      },
+      "33655840-7725-4385-85e4-6f05a0a23c31": {
+        "size": 2362997,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100"
+      },
+      "fe0f2ed3-f9a5-43ff-8907-04393e06e41c": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/40000"
+      },
+      "beaf7c5c-f0dc-4c9c-9d0a-66b99ec49e60": {
+        "size": 10601,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE80000"
+      },
+      "37c79b2d-dc8c-4e0e-81a2-b92c49ae47ec": {
+        "size": 60022,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/10000"
+      },
+      "187a9b6e-b355-423a-9649-b3da10f3b8be": {
+        "size": 2359177,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE80000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/10000/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 165840,
+        "id": "054cd73d-0dcf-4c1e-9a69-e8109a2d6a10",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, big endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476456,
+        "id": "125b59ee-e6cf-4c88-9db0-07aab6946202",
+        "size": 125,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (hoangtu1@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Tue Jun 24 02:51:28 UTC 2025, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487132,
+        "id": "aa5cab52-6d7c-4483-a5e8-6fd5fe3fe81d",
+        "size": 14348,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14348 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576883,
+        "id": "b0aa4390-2bcd-46db-92d3-763b5e3c8b68",
+        "size": 1338829,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "face4697-668c-4854-88eb-671e890cc081",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "aa5cab52-6d7c-4483-a5e8-6fd5fe3fe81d": {
+        "size": 14330,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100/decompressed.bin.extracted/53BA1C"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100/decompressed.bin.extracted/53BA1C/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476452,
+        "id": "828d79aa-3f74-4206-b48b-3f4bfc2cc758",
+        "size": 123,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (dungbd4@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Thu Jun 2 02:33:50 UTC 2022, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487100,
+        "id": "702f3c4b-a604-457c-a466-3d25e02a30b0",
+        "size": 14255,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14255 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576755,
+        "id": "13ed9bc9-26a2-404b-ba9a-31ad40e58a30",
+        "size": 1334861,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "e67eb17e-a359-4a60-b52c-c4170bb8fafd",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "702f3c4b-a604-457c-a466-3d25e02a30b0": {
+        "size": 14237,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100/decompressed.bin.extracted/53B9FC"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100/decompressed.bin.extracted/53B9FC/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+]
+[
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin",
+    "file_map": [
+      {
+        "offset": 65536,
+        "id": "48eaa840-0a21-4453-97e8-2e155b2102cd",
+        "size": 60022,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 60022 bytes, uncompressed size: 202288 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 262144,
+        "id": "76f7d83b-f30b-49df-b0f2-47d793552769",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 524544,
+        "id": "bc99cf20-63e2-4d05-bebc-d6b812a2d75b",
+        "size": 2359177,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2359177 bytes, uncompressed size: 6911616 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 2883721,
+        "id": "21ad6285-a8c7-4820-9112-12f9198d40c6",
+        "size": 16310867,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1220, block size: 131072, image size: 16310867 bytes, created: 2022-06-02 03:10:45",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 26738944,
+        "id": "255379f5-1c90-4190-ba6e-3edd2f148b6f",
+        "size": 2362997,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2362997 bytes, uncompressed size: 6915712 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 29101941,
+        "id": "4301e2da-f4ac-43bc-bb3b-02a0b0cbc0ac",
+        "size": 18256743,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1364, block size: 131072, image size: 18256743 bytes, created: 2025-07-08 03:49:08",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 61341696,
+        "id": "b28a56cf-68dd-4f09-8d0e-4b4afaf00809",
+        "size": 16648192,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 6476, total size: 16648192 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 111673344,
+        "id": "8d1279cc-92a8-465a-a5f7-1f2d729446a8",
+        "size": 1968128,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 16, total size: 1968128 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233046016,
+        "id": "8bfa9a80-dd03-4fdf-9e71-b34fedff0cd9",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233308160,
+        "id": "b3021a9a-c026-42b8-b27c-dc03df7fa0b8",
+        "size": 10619,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10619 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "21ad6285-a8c7-4820-9112-12f9198d40c6": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/2C0089"
+      },
+      "8d1279cc-92a8-465a-a5f7-1f2d729446a8": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/6A80000"
+      },
+      "76f7d83b-f30b-49df-b0f2-47d793552769": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/40000"
+      },
+      "bc99cf20-63e2-4d05-bebc-d6b812a2d75b": {
+        "size": 2359177,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100"
+      },
+      "255379f5-1c90-4190-ba6e-3edd2f148b6f": {
+        "size": 2362997,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100"
+      },
+      "4301e2da-f4ac-43bc-bb3b-02a0b0cbc0ac": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1BC0F75"
+      },
+      "8bfa9a80-dd03-4fdf-9e71-b34fedff0cd9": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE40000"
+      },
+      "b3021a9a-c026-42b8-b27c-dc03df7fa0b8": {
+        "size": 10601,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE80000"
+      },
+      "b28a56cf-68dd-4f09-8d0e-4b4afaf00809": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000"
+      },
+      "48eaa840-0a21-4453-97e8-2e155b2102cd": {
+        "size": 60022,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/10000"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/DE80000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vtsyslog.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/parentalcontrol_enable",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/olttype",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/info/pwr_reboot_source",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/yRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/mqtt.crt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/info/reboot_reason",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/tRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/mqtt-ca.crt",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "4349920e-d136-4125-9d43-9f39bd8beead",
+        "size": 1086,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/public_key.pem",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "6fe19240-7e17-4300-a5a3-15eb691275d7",
+        "size": 1748,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/vcs_agent.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/iptable_init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/mqtt.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/domain.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/gSafe.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/iptable_deinit.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/vcs/database.fp",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/pppoe_sid_nas0_0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/wifilog.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/messages.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/vcs/vcs.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/messages.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/vcs/audit.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/obuspalog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/vcs/vcs_controller.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/messages.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476452,
+        "id": "61d2b02b-1620-41f3-b125-c1b37e3e7936",
+        "size": 123,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (dungbd4@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Thu Jun 2 02:33:50 UTC 2022, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487100,
+        "id": "a6924256-728d-4750-92b7-766e7e15d570",
+        "size": 14255,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14255 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576755,
+        "id": "73f2a7b0-38ee-42d9-ac36-d87dfc51585c",
+        "size": 1334861,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "211750b8-2294-44ec-914a-8aeb6dfa7bc8",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "a6924256-728d-4750-92b7-766e7e15d570": {
+        "size": 14237,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100/decompressed.bin.extracted/53B9FC"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/wifilog.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/wifilog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/wifilog.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/tmp/usp.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/tmp/obuspa_factory_reset.txt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/log/messages",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/3A80000/jffs2-root/tmp/usp.db-journal",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/80100/decompressed.bin.extracted/53B9FC/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/10000/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 165840,
+        "id": "12077bd3-2479-40a6-aa4f-fe8abc086aa3",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, big endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476456,
+        "id": "79825d1b-50d4-4c45-88d8-3145e9b3f85d",
+        "size": 125,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (hoangtu1@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Tue Jun 24 02:51:28 UTC 2025, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487132,
+        "id": "3d1ceb05-4a34-4cd5-aab8-a39eb4c2bb1d",
+        "size": 14348,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14348 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576883,
+        "id": "53cabe8e-cb90-4017-aaa0-8e35a22be4b0",
+        "size": 1338829,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "1ff82826-a203-4122-82fa-8aeb6b18ccbb",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "3d1ceb05-4a34-4cd5-aab8-a39eb4c2bb1d": {
+        "size": 14330,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100/decompressed.bin.extracted/53BA1C"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd-no-spare.bin.extracted/1980100/decompressed.bin.extracted/53BA1C/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+]
+[
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin",
+    "file_map": [
+      {
+        "offset": 65536,
+        "id": "8d947b4d-74a0-4d2a-a2cb-e43f27f7b440",
+        "size": 60022,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 60022 bytes, uncompressed size: 202288 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 262144,
+        "id": "8f2844cd-b8e4-4ff8-8803-d7cca5826e78",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 524544,
+        "id": "daa8a789-e9bc-4ccd-bf96-562817459fd3",
+        "size": 2359177,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2359177 bytes, uncompressed size: 6911616 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 2883721,
+        "id": "f0dbdf32-d5c1-487a-b951-30b759a4a9c0",
+        "size": 16310867,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1220, block size: 131072, image size: 16310867 bytes, created: 2022-06-02 03:10:45",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 26738944,
+        "id": "1d0c1f7c-e805-473d-a74b-cd40d5bf908b",
+        "size": 2362997,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2362997 bytes, uncompressed size: 6915712 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 29101941,
+        "id": "481991c2-ca1a-44d7-ae28-ecbf9bd447f6",
+        "size": 18256743,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1364, block size: 131072, image size: 18256743 bytes, created: 2025-07-08 03:49:08",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 61341696,
+        "id": "a9aaba9b-cc8d-4e57-b0e8-3e1368731326",
+        "size": 16648192,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 6476, total size: 16648192 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 111673344,
+        "id": "822e83c0-3a02-4b06-b359-6f0e543881b3",
+        "size": 1968128,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 16, total size: 1968128 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233046016,
+        "id": "46baa520-9e48-4eed-b766-c304dfbec044",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233308160,
+        "id": "3e718a0e-fe81-4c19-8d7f-39bcb49b1ba3",
+        "size": 10619,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10619 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "a9aaba9b-cc8d-4e57-b0e8-3e1368731326": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000"
+      },
+      "3e718a0e-fe81-4c19-8d7f-39bcb49b1ba3": {
+        "size": 10601,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE80000"
+      },
+      "481991c2-ca1a-44d7-ae28-ecbf9bd447f6": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1BC0F75"
+      },
+      "1d0c1f7c-e805-473d-a74b-cd40d5bf908b": {
+        "size": 2362997,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100"
+      },
+      "822e83c0-3a02-4b06-b359-6f0e543881b3": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/6A80000"
+      },
+      "f0dbdf32-d5c1-487a-b951-30b759a4a9c0": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/2C0089"
+      },
+      "8d947b4d-74a0-4d2a-a2cb-e43f27f7b440": {
+        "size": 60022,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/10000"
+      },
+      "daa8a789-e9bc-4ccd-bf96-562817459fd3": {
+        "size": 2359177,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100"
+      },
+      "46baa520-9e48-4eed-b766-c304dfbec044": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE40000"
+      },
+      "8f2844cd-b8e4-4ff8-8803-d7cca5826e78": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/40000"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vtsyslog.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/parentalcontrol_enable",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/olttype",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/info/pwr_reboot_source",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/info/reboot_reason",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/yRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt.crt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/tRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt-ca.crt",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "7390f0de-3c0c-4241-8000-8b46d8adb441",
+        "size": 1086,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/public_key.pem",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "b92e356c-c04d-454a-9e7b-d7ee21dfe8f8",
+        "size": 1748,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/vcs_agent.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/iptable_init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/domain.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/iptable_deinit.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/gSafe.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/database.fp",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/pppoe_sid_nas0_0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/vcs.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/audit.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/vcs_controller.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/obuspalog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/usp.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/obuspa_factory_reset.txt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/usp.db-journal",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE80000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/10000/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 165840,
+        "id": "127923a5-e17b-4210-ad4b-3fe64798eb3c",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, big endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476456,
+        "id": "40270d06-981e-4874-ac1a-686fd0737384",
+        "size": 125,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (hoangtu1@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Tue Jun 24 02:51:28 UTC 2025, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487132,
+        "id": "5378e260-f274-4020-9aca-2993b5c8eb32",
+        "size": 14348,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14348 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576883,
+        "id": "7059f4ba-80bc-4d3b-b979-8d9040798892",
+        "size": 1338829,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "89eb4339-fc9c-4ba6-95b0-6580c02d68a2",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "5378e260-f274-4020-9aca-2993b5c8eb32": {
+        "size": 14330,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin.extracted/53BA1C"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin.extracted/53BA1C/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476452,
+        "id": "75edc97e-c717-433b-b468-766a8eb98879",
+        "size": 123,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (dungbd4@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Thu Jun 2 02:33:50 UTC 2022, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487100,
+        "id": "f36662e8-c037-4010-92cb-2e9428fc5df7",
+        "size": 14255,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14255 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576755,
+        "id": "ce9f46ae-00c6-43f0-8ec6-a68401f2e88b",
+        "size": 1334861,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "63f5082d-a5f8-4fab-96db-5010fdc9e63d",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "f36662e8-c037-4010-92cb-2e9428fc5df7": {
+        "size": 14237,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin.extracted/53B9FC"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin.extracted/53B9FC/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+]
+[
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin",
+    "file_map": [
+      {
+        "offset": 65536,
+        "id": "e36ce23b-c21e-4184-94f5-efdb674c864b",
+        "size": 60022,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 60022 bytes, uncompressed size: 202288 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 262144,
+        "id": "a395aa65-8758-484d-b064-bcc7aff2b2f7",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 524544,
+        "id": "4d531840-9d02-416f-ac54-5b202232d187",
+        "size": 2359177,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2359177 bytes, uncompressed size: 6911616 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 2883721,
+        "id": "369dd8ba-0a0b-47cb-92de-a1af9d116942",
+        "size": 16310867,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1220, block size: 131072, image size: 16310867 bytes, created: 2022-06-02 03:10:45",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 26738944,
+        "id": "5bb91881-6ace-4c5d-b404-a74967d84b22",
+        "size": 2362997,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2362997 bytes, uncompressed size: 6915712 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 29101941,
+        "id": "f6fa8d80-fe58-4f00-ac8d-c18ad84976f9",
+        "size": 18256743,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1364, block size: 131072, image size: 18256743 bytes, created: 2025-07-08 03:49:08",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 61341696,
+        "id": "0085c13a-a7b5-43ed-bd98-5ef852240d2c",
+        "size": 16648192,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 6476, total size: 16648192 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 111673344,
+        "id": "e5d502ea-cec7-418c-9d18-36b5f41fc84e",
+        "size": 1968128,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 16, total size: 1968128 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233046016,
+        "id": "c0736117-39e1-4b94-bb91-249c0e2f7fb0",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233308160,
+        "id": "c8572e94-bab2-40ce-a68f-a4f33fa4344c",
+        "size": 10619,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10619 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "a395aa65-8758-484d-b064-bcc7aff2b2f7": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/40000"
+      },
+      "4d531840-9d02-416f-ac54-5b202232d187": {
+        "size": 2359177,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100"
+      },
+      "f6fa8d80-fe58-4f00-ac8d-c18ad84976f9": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1BC0F75"
+      },
+      "e36ce23b-c21e-4184-94f5-efdb674c864b": {
+        "size": 60022,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/10000"
+      },
+      "369dd8ba-0a0b-47cb-92de-a1af9d116942": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/2C0089"
+      },
+      "e5d502ea-cec7-418c-9d18-36b5f41fc84e": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/6A80000"
+      },
+      "0085c13a-a7b5-43ed-bd98-5ef852240d2c": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000"
+      },
+      "c0736117-39e1-4b94-bb91-249c0e2f7fb0": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE40000"
+      },
+      "c8572e94-bab2-40ce-a68f-a4f33fa4344c": {
+        "size": 10601,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE80000"
+      },
+      "5bb91881-6ace-4c5d-b404-a74967d84b22": {
+        "size": 2362997,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vtsyslog.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/parentalcontrol_enable",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/olttype",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/10000/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 165840,
+        "id": "01994aa7-7de8-41e0-a624-87c710d64b2a",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, big endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/info/pwr_reboot_source",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/yRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/info/reboot_reason",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/tRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt.crt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt-ca.crt",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "c4073641-e57f-40e0-b3d9-f4d3b207db79",
+        "size": 1086,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/public_key.pem",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "5dfea874-01e3-4128-a028-4ae33eaf5752",
+        "size": 1748,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/vcs_agent.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/iptable_init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/domain.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/iptable_deinit.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/gSafe.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/database.fp",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/pppoe_sid_nas0_0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/vcs.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/audit.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/vcs_controller.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/obuspalog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/usp.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/obuspa_factory_reset.txt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/usp.db-journal",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE80000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476452,
+        "id": "e7a08164-6c4e-4048-94da-3ad498c879a1",
+        "size": 123,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (dungbd4@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Thu Jun 2 02:33:50 UTC 2022, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487100,
+        "id": "12a28e83-e464-4b02-a387-8a973f6d222c",
+        "size": 14255,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14255 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576755,
+        "id": "26561607-bd91-453d-ac0e-57507baa5370",
+        "size": 1334861,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "0a0ae627-e2c4-4485-b16e-6847b0528666",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "12a28e83-e464-4b02-a387-8a973f6d222c": {
+        "size": 14237,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin.extracted/53B9FC"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin.extracted/53B9FC/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476456,
+        "id": "00605b43-b693-4fd4-a95d-84ffa7a8b3cc",
+        "size": 125,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (hoangtu1@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Tue Jun 24 02:51:28 UTC 2025, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487132,
+        "id": "91e1ddec-4875-4b23-a773-947262670c6f",
+        "size": 14348,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14348 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576883,
+        "id": "1fcd0d2f-123f-4daa-9422-73cfb929d5ea",
+        "size": 1338829,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "fe257c0a-db31-40f6-8373-6f977a995187",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "91e1ddec-4875-4b23-a773-947262670c6f": {
+        "size": 14330,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin.extracted/53BA1C"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin.extracted/53BA1C/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+]
+[
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin",
+    "file_map": [
+      {
+        "offset": 65536,
+        "id": "e1e9da63-10f1-482c-b5eb-24702b18e74f",
+        "size": 60022,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 60022 bytes, uncompressed size: 202288 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 262144,
+        "id": "73bf9c01-a575-4635-8d30-d3f7e5e5c4ac",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 524544,
+        "id": "685961ac-a760-4148-81a7-3a7af4176893",
+        "size": 2359177,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2359177 bytes, uncompressed size: 6911616 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 2883721,
+        "id": "9c30238b-af87-476c-b3c6-cb821f7fd986",
+        "size": 16310867,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1220, block size: 131072, image size: 16310867 bytes, created: 2022-06-02 03:10:45",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 26738944,
+        "id": "2913cb86-1d63-4274-a998-d6c956cc3791",
+        "size": 2362997,
+        "name": "lzma",
+        "confidence": 250,
+        "description": "LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 2362997 bytes, uncompressed size: 6915712 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 29101941,
+        "id": "40ccb457-deaf-4a87-987e-61f60cbcd2c1",
+        "size": 18256743,
+        "name": "squashfs",
+        "confidence": 250,
+        "description": "SquashFS file system, little endian, version: 4.0, compression: lzma, inode count: 1364, block size: 131072, image size: 18256743 bytes, created: 2025-07-08 03:49:08",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 61341696,
+        "id": "703d2785-7a07-44b1-ab1c-94443761ec73",
+        "size": 16648192,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 6476, total size: 16648192 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 111673344,
+        "id": "6f972aee-d3d9-4681-9033-aad058b7b64d",
+        "size": 1968128,
+        "name": "jffs2",
+        "confidence": 250,
+        "description": "JFFS2 filesystem, big endian, nodes: 16, total size: 1968128 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233046016,
+        "id": "187dda64-389b-41d3-8f6d-d5484a64c4b5",
+        "size": 10437,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10437 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 233308160,
+        "id": "e2e6d49c-bf90-4632-a293-0493405f39f2",
+        "size": 10619,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 10619 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "40ccb457-deaf-4a87-987e-61f60cbcd2c1": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1BC0F75"
+      },
+      "9c30238b-af87-476c-b3c6-cb821f7fd986": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/2C0089"
+      },
+      "703d2785-7a07-44b1-ab1c-94443761ec73": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000"
+      },
+      "73bf9c01-a575-4635-8d30-d3f7e5e5c4ac": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/40000"
+      },
+      "685961ac-a760-4148-81a7-3a7af4176893": {
+        "size": 2359177,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100"
+      },
+      "2913cb86-1d63-4274-a998-d6c956cc3791": {
+        "size": 2362997,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100"
+      },
+      "6f972aee-d3d9-4681-9033-aad058b7b64d": {
+        "size": null,
+        "success": true,
+        "extractor": "jefferson",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/6A80000"
+      },
+      "e2e6d49c-bf90-4632-a293-0493405f39f2": {
+        "size": 10601,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE80000"
+      },
+      "187dda64-389b-41d3-8f6d-d5484a64c4b5": {
+        "size": 10419,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE40000"
+      },
+      "e1e9da63-10f1-482c-b5eb-24702b18e74f": {
+        "size": 60022,
+        "success": true,
+        "extractor": "lzma_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/10000"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vtsyslog.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/parentalcontrol_enable",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/info/pwr_reboot_source",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/olttype",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/info/reboot_reason",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/tRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt.crt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/yRest.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt-ca.crt",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "e548cf4b-30b7-41d8-81e6-f4ddf1641f97",
+        "size": 1086,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/vcs_agent.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/public_key.pem",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "590157ef-3086-4dc4-b626-f41e87a97172",
+        "size": 1748,
+        "name": "pem_certificate",
+        "confidence": 250,
+        "description": "PEM certificate",
+        "always_display": false,
+        "extraction_declined": true
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/iptable_init.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/mqtt.conf",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/domain.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/iptable_deinit.sh",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/gSafe.dnsmasq",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/pppoe_sid_nas0_0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/vcs/database.fp",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/vcs.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/audit.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/vcs/vcs_controller.log",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/obuspalog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.2",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/messages",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/usp.db",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/obuspa_factory_reset.txt",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/tmp/usp.db-journal",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.1",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog.0",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/3A80000/jffs2-root/log/wifilog",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE40000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/DE80000/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/10000/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 165840,
+        "id": "705519f9-ba96-451e-9000-ae0b6a91602c",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, big endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476452,
+        "id": "848ad32c-5b6c-4350-a61a-30af95b33314",
+        "size": 123,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (dungbd4@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Thu Jun 2 02:33:50 UTC 2022, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487100,
+        "id": "c4b3125a-4ac8-49aa-beaf-4c853b3d8a8b",
+        "size": 14255,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14255 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576755,
+        "id": "48c024dd-0c99-4459-ad18-606036cfce7f",
+        "size": 1334861,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "3f6db6b8-3a1a-46dc-aded-b316714cfaad",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "c4b3125a-4ac8-49aa-beaf-4c853b3d8a8b": {
+        "size": 14237,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin.extracted/53B9FC"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin",
+    "file_map": [
+      {
+        "offset": 5476456,
+        "id": "3784b551-9d5b-4bfc-b468-948a068f07c6",
+        "size": 125,
+        "name": "linux_kernel",
+        "confidence": 0,
+        "description": "Linux version 3.18.21 (hoangtu1@docker_ontv2) (gcc version 4.9.3 (Buildroot 2015.08.1) ) #2 SMP Tue Jun 24 02:51:28 UTC 2025, has symbol table: false",
+        "always_display": true,
+        "extraction_declined": true
+      },
+      {
+        "offset": 5487132,
+        "id": "e8d791f8-7973-44e1-a157-3e9f71082dcb",
+        "size": 14348,
+        "name": "gzip",
+        "confidence": 250,
+        "description": "gzip compressed data, operating system: Unix, timestamp: 1970-01-01 00:00:00, total size: 14348 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 5576883,
+        "id": "829315c9-6732-4c4d-9626-ebc29f358a0a",
+        "size": 1338829,
+        "name": "aes_rcon",
+        "confidence": 0,
+        "description": "AES RCON",
+        "always_display": false,
+        "extraction_declined": false
+      },
+      {
+        "offset": 6556224,
+        "id": "5bc3a8b5-0ee5-4edf-9fb5-2d970c33832a",
+        "size": 16,
+        "name": "crc32",
+        "confidence": 0,
+        "description": "CRC32 polynomial table, little endian",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "e8d791f8-7973-44e1-a157-3e9f71082dcb": {
+        "size": 14330,
+        "success": true,
+        "extractor": "gzip_built_in",
+        "do_not_recurse": false,
+        "output_directory": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin.extracted/53BA1C"
+      }
+    }
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/80100/decompressed.bin.extracted/53B9FC/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+},
+{
+  "Analysis": {
+    "file_path": "/home/ehvn/dump/extractions/421wd_dump.bin.extracted/1980100/decompressed.bin.extracted/53BA1C/decompressed.bin",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+]

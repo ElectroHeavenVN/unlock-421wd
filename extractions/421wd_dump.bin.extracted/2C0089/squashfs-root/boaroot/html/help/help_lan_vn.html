@@ -1,0 +1,84 @@
+<head>
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+
+    </style>
+    </head>
+    <body>
+    <h3>Địa chỉ IPv4</h3>
+    <p><strong>Địa chỉ IPv4</strong>:Thiết lập các tham số IPv4:</p>
+    <ul>
+    <li>Địa chỉ IP: Nhập địa chỉ IP cho thiết bị ONT, không nằm trong Dải DHCP nếu kích hoạt tính năng DHCP (Mặc định: 192.168.1.1)</li>
+    <li>Mặt nạ mạng con: Mã địa chỉ dùng để xác định ID của mạng trong địa chỉ ID 32 bit, thường là: 255.255.255.0</li>
+    </ul>
+    <p><strong>DHCP</strong>: Thiết bị được thiết lập bởi một máy chủ DHCP (Dynamic Host Configuration Protocol) mặc định, cung cấp cấu hình TCP/IP cho tất cả các thiết bị được kết nối với ONT qua LAN.</p>
+    <ul>
+    <li>Kích hoạt/ Vô hiệu hóa: thiết lập kích hoạt hoặc vô hiệu hóa DHCP server. Nếu thiết lập Vô hiệu hóa, quý khách cần phải có một máy chủ DHCP khác cùng mạng hoặc phải cấu hình thủ công IP tĩnh cho thiết bị.</li>
+    <li>Dải DHCP: Là dải địa chỉ IP cấp cho thiết bị được kết nối. Mặc định là 192.168.1.1 – 192.168.1.254</li>
+    <li>Thời hạn DHCP Server: Là khoảng thời gian người dùng mạng được phép giữ kết nối đến thiết bị ONT với địa chỉ IP được DHCP cấp hiện tại, mặc định là 60 phút. Thiết lập thời hạn DHCP trong dải 1÷3600 (phút).</li>
+    </ul>
+    <p><strong>Chế độ DNS</strong>: Thiết lập chế độ cấp DNS cho thiết bị trong LAN, có các tùy chọn:</p>
+    <ul>
+    <li><strong>Proxy</strong>: Thiết lập ONT như là một proxy phân giải tên miền.</li>
+    <li><strong>Thủ công</strong>: Cấp phát cho các thiết bị các địa chỉ DNS được thiết lập bên dưới:
+    <ul>
+    <li>DNS chính: thiết lập địa chỉ IP DNS được cấp bởi ISP của nhà mạng mà quý khách tham gia. Mặc định là 8.8.8.8</li>
+    <li>DNS phụ: thiết lập địa chỉ IP của một DNS server khác nếu ISP cấp 2 DNS server. Mặc định là 8.8.4.4</li>
+    </ul>
+    </li>
+    <li><strong>Các giao diện WAN</strong>: Tự động nhận IP từ một giao diện WAN xác định rồi cấp phát cho các thiết bị</li>
+    </ul>
+    <p><strong>Cấp phát IP tĩnh</strong>: Cấu hình IP tĩnh cho thiết bị nào đó.</p>
+    <ul>
+    <li><strong>Địa chỉ IP</strong>: Nhập địa chỉ IP thuộc Dải DHCP đã thiết lập phía trên.</li>
+    <li><strong>Địa chỉ MAC</strong>: Nhập địa chỉ MAC của thiết bị muốn kết nối đến ONT.</li>
+    <li><strong>Thêm</strong>: Thêm dòng mới trong bảng cấp phát IP tĩnh</li>
+    </ul>
+    <h3>Địa chỉ IPv6</h3>
+    <p><strong>Cấu hình Router Advertisement (RA):</strong> Thiết lập tính năng quảng bá bộ định tuyến (Router Advertisement).</p>
+    <ul>
+    <li>SLAAC: Kích hoạt/Vô hiệu hóa: Kích hoạt hoặc vô hiệu hóa tính năng.</li>
+    <li>Chế độ Router Advertisement:<br />
+    <ul>
+    <li>Tự động: Sử dụng các thông số được lấy từ giao diện WAN.</li>
+    <ul>
+        <li>Nguồn Tiền tố: Chọn giao diện WAN để lấy các thông số cấu hình. Mặc định chọn giao diện WAN của dịch vụ Internet</li>
+    </ul>
+    <li>Thủ công: Cho phép thay đổi các thông số của quá trình Router Advertisement. Các cấu hình dưới đây chỉ được khuyến khích cho người dùng nâng cao:<br />
+    <ul>
+    <li>Tiền tố IPv6 và độ dài tiền tố.</li>
+    <li>Prefered Lifetime và Valid Lifetime.</li>
+    <li>Thời gian nhỏ nhất và lớn nhất giữa 2 gói RA.</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    <p><strong>LAN</strong>: Thiết lập máy chủ DHCPv6 để ONT có thể cấp địa chỉ IPv6 cho các thiết bị trong mạng LAN.</p>
+    <ul>
+    <li>Máy chủ DHCPv6: Kích hoạt/ Vô hiệu hóa: thiết lập kích hoạt hoặc vô hiệu hóa máy chủ DHCPv6. Nếu vô hiệu hóa máy chủ DHCPv6, trong mạng LAN phải có một máy chủ DHCPv6 khác cùng mạng hoặc phải cấu hình địa chỉ IPv6 tĩnh cho thiết bị.</li>
+    <li>Chế độ cấu hình:
+    <ul>
+        <li>Thủ công: Người dùng thiết lập cấu hình DHCPv6 một cách thủ công. Các cấu hình dưới đây chỉ được khuyến khích cho người dùng nâng cao:
+        <ul>
+        <li>Định dạng địa chỉ cấp phát: Định dạng Dải địa chỉ hoặc định dạng địa chỉ EUI64.</li>
+        <li>Tiền tố IPv6/Độ dài tiền tố: Tiền tố và độ dài tiền tố để cấp địa chỉ IPv6 cho thiết bị trong LAN.</li>
+        <li>Prefered Lifetime: Thời gian trước khi địa chỉ IPv6 của thiết bị trong LAN chuyển sang trạng thái “deprecate”.</li>
+        <li>Valid Lifetime: Thời gian trước khi địa chỉ IPv6 của thiết bị trong LAN bị hết hạn. Thời gian hiệu lực phải dài hơn thời gian hoạt động.</li>
+        <li>DNS chính và DNS phụ: Địa chỉ chính và địa chỉ phụ của máy chủ phân giản tên miền.</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li>Tự động thiết lập Tiền tố và Máy chủ DNS: chọn DNS và các thông số khác theo giao diện WAN được cấu hình bên dưới</li>
+        <ul>
+            <li>Nguồn Máy chủ DNS: Chọn giao diện WAN để lấy DNS cho IPv6. Mặc định chọn giao diện WAN của dịch vụ Internet</li>
+        </ul>
+        <li>Tự động thiết lập Máy chủ DNS: chọn DNS theo giao diện WAN được cấu hình ở "Nguồn máy chủ DNS"</li>
+    </ul>
+    <p>Chọn Áp dụng để lưu các thiết lập.Thời gian lưu và thực thi tất cả các thiết lập sẽ mất một khoảng thời gian vài giây.</p>
+    </body>

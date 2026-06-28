@@ -1,0 +1,29 @@
+<head>
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p>Cấu hình tính năng Port Forwarding nhằm cho phép một thiết bị (server) trong mạng LAN có thể được truy cập từ Internet (Port ngoài không được chứa một số port đặc biệt dùng cho các dịch vụ: tr069, http, https...).</p>
+<p><b>Tên giao diện WAN</b>: Giao diện WAN được dùng để kết nối đến Internet (phải kích hoạt tính năng NAT ở giao diện này thì Port Forwarding mới hoạt động)
+<p><b>Bảng Port Forwarding</b>: mỗi dòng là một luật Port Forwarding:</p><ul>
+    <li><b>Tên Mapping</b>: Tên dùng để gợi nhớ cho 1 luật.</li>
+    <li><b>Giao thức</b>: Giao thức áp dụng cho luật.</li>
+    <li><b>IP trong</b>: Địa chỉ IP của thiết bị trong mạng LAN cần dùng tính năng này.</li>
+    <li><b>Port trong</b>: Port của thiết bị trong mạng LAN.</li>
+    <li><b>Port ngoài</b>: Port phía WAN (phía Internet) của ONT dùng để map với port trong. Không được bao gồm các port đặc biệt đã nêu ở trên.</li>
+    <li><b>Trạng thái</b>: Kích hoạt hoặc vô hiệu luật hiện tại.</li>
+    <li><b>Hiệu chỉnh</b>: Có nút để điều chỉnh các thông số cấu hình của hiện tại.</li>
+    <li>Ngoài ra, đầu mỗi dòng có mỗi nút chọn ở đầu dòng, dùng để chọn các luật để xóa khi click nút "XÓA".</li>
+</ul> 
+<p><b>Giao diện thêm/chỉnh sửa</b>: chỉ hiển thị ở phía trên bảng Port Forwarding khi click nút "THÊM", hoặc ở bên dưới dòng cần chỉnh sửa khi click vào nút ở cột "Hiệu chỉnh". Ở giao diện này, người dùng có thể chọn:</p>
+<ul>
+    <li><b>Tùy biến</b>: Cấu hình các thông số Giao thức, Tên Mapping, IP trong, Port trong, Port ngoài theo nhu cầu tùy biến của người dùng.</li>
+    <li><b>Chọn Ứng dụng</b>: Cho phép người dùng chọn môt dịch vụ nhất định (DNS Server, FPT Server, IPSEC,...) trong trường Service Type, các thông số Giao thức, Tên Mapping, Port trong, Port ngoài sẽ được tự động cấu hình theo dịch vụ đó, người dùng chỉ cần cấu hình địa chỉ IP</li>
+
+</ul> 
+</body>

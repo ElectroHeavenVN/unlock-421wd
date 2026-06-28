@@ -1,0 +1,1285 @@
+  ont-dev-mesh
+  release/2.7.0
+  release/2.8.0
+* release/2.9.0
+  user/hoangtu1/not-sendin-padt-before-every-padi
+  remotes/origin/HEAD -> origin/ont-dev-mesh
+  remotes/origin/bug/rcpi_2_rssi
+  remotes/origin/feature/safehome
+  remotes/origin/ont-dev-mesh
+  remotes/origin/release/2.7.0
+  remotes/origin/release/2.8.0
+  remotes/origin/release/2.9.0
+  remotes/origin/release/2.9.0_kcs
+  remotes/origin/user/hoangld15/add_acs_params_firmware
+  remotes/origin/user/hoangtu1/not-sendin-padt-before-every-padi
+  remotes/origin/user/sonnh68/task/vsafes-tms
+4bb5385 [ONTS-1353]<Feature>[Firmware]: Delete the ValidVersionFirmware parameter
+192f2b3 [ONTS-1353]<Feature>[Firmware]: Fix and Improve the ACS parameters
+fa0881c [ONTS-1353]<Feature>[Firmware]: Improve setPlannedFirmwareVersion function
+791cf2e [ONTS-963]<feature>[SafeHome]: Fixing many fds in device monitor
+c160d8c ONTS-1357<bug>[TR69] Diagnostic fails if ACS not send interface param
+ddf3df6 ONTS-1356<bug>[TR69] Loop inform with event TransferComplete
+2e96940 ONTS-1355<bug>[TR69] Can not inform when download or upgrade fail via ACS
+15ff8fa [ONTS-1354]<release> Change firmware to version 2.9.0
+cdf660c [ONTS-1353]<Feature>[Firmware]: Add ACS parameters to control firmware
+5dc071f ONTS-1352<feature>[TR69] Support access from WAN
+769d032 ONTS-1350<bug>[TR69] Web upgrade causes tr69 app enable EVENT_TransferComplete flag
+2abfe15 [ONTS-1351]<Task>[Portscan] Allow port 53 - TCP proto
+7681359 [ONTS-963]<feature>[Safe Home] accept safe search tcp port 56
+7648cd5 [ONTS-963]<feature>[Safe Home] do not accept unused port 54,55
+79bfafa Merge branch 'release/2.9.0' into feature/safehome
+bde9034 ONTS-1192<task>[TR069] Upgrade firmware via tr069 - Wrong behavior after upgrade
+77a80ba [ONTS-1338]<bug>[Mesh]: Crash 1905 daemon when buffer of 1905 tlv oversize
+15b8564 [ONTS-1341]<bug>[Mesh]: Edit lldp message
+49d1ecf [ONTS-963]<feature>[Safe Home] porting patch 1.2.0-rc4
+2a1ce9d ONTS-1349: <bug>[WIFI][CFG] Fix bug kernel panic when apply WiFi config
+31a140f [ONTS-963]<feature>[Safe Home] porting patch 1.2.0-rc3, fix sync rule, limit log
+4a706fd [ONTS-963]<feature>[Safe Home] porting patch vSafes 23032025, fix crash, spam log
+557b762 [ONTS-963]<feature>[Safe Home] Porting new vsafes
+cd1add6 [ONTS-963]<feature>[Safe Home] Add timout sending for obuspa
+7f764ce ONTS-1342: <bug>[WIFI] Fix bug incorrect channel setting when enable new SSID
+648f099 Revert "ONTS-1101: <modify> [WIFI] Abadon bandwidth 20/40 and 20/40/80MHz on radio 5GHz"
+c1632de ONTS-1339: <task>[STEER] Add time gap when retry BTM
+b7a3a3e [ONTS-963]<feature>[Safe Home] fix wrong behaviour when reading reboot reason
+d4e346a [ONTS-963]<feature>[Safe Home] fix wrong behaviour when reading reboot reason
+83cce7f [ONTS-963][ONTS-1334]<feature>[Safe Home] porting new vSafes, develop TMS api to activate Safe Home
+34267d9 [ONTS-963]<feature>[Safe Home] detect upgrade firmware by TMS
+a8a4c8e Merge branch 'release/2.9.0' into feature/safehome
+a9892a3 [ONTS-1325]<feature>[Upgrade]: Fix wrong reboot reason
+419cf18 [ONTS-1325]<feature>[Upgrade]: Add reboot reason
+3763fae [ONTS-963]<feature>[Safe Home] fix minor bug
+74d45ad [ONTS-963][ONTS-1334]<feature>[Safe Home] porting new vSafes, develop api TMS to activate MySafe
+5e7f104 [ONTS-1325]<feature>[Upgrade]: Upgrade firmware by TMS
+202328b [ONTS-1335]<Bug>[Upgrade]: Cannot upgrade firmware with lowercase name
+8ae41ac [ONTS-1322]<bug>[Mesh]: Check null pointer
+5c2632e [ONTS-1327]<bug>[BD]:Enable IPv6 in OMCI backdoor
+ffd6dcd [ONTS-1326]<bug>[BD]:Fix bug counter in OMCI backdoor
+a055ecb [ONTS-1334]<task>[Safe Home] develop api activate MySafe cont
+0a0687b [ONTS-1334]<task>[TMS] develop api softwaremodules for activating mysafe
+cc9ddc3 [ONTS-963]<feature>[Safe Home] merge branch release/2.8.0
+8305fb4 [ONTS-963]<feature>[Safe Home] disable safehome
+ada27d6 [ONTS-963]<feature>[Safe Home] add some flags
+7a6f3d2 [ONTS-1312]<bugfix>[Service] improve limit MSS, fix internet lag cont
+935dc97 ONTS-1320 [bandsteering][web] SSID 5GHz change to empty when disable bandsteering from ACS
+a949bec [ONTS-963]<feature>[Safe Home] porting patch sleep, support BE cont
+28eae87 [ONTS-963]<feature>[Safe Home] porting patch sleep, support BE
+71086b1 [ONTS-963]<feature>[Safe Home] porting patch sleep, support BE cont
+0d70fd7 [ONTS-963]<feature>[Safe Home] porting patch sleep, support BE
+b10f197 [ONTS-1315]<bug>[Mesh]: RCPI to RSSI when APw6 sent AP link metric
+47c7508 [ONTS-963]<feature>[Safe Home] porting patch fix asynchronous rules, add some apis
+0dde94e [ONTS-963]<feature>[Safe Home] fix high cpu devdevice-monitor
+409e259 [ONTS-963]<feature>[Safe Home] porting patch fix asynchronous rules, add some apis
+1b7a5ee [ONTS-963]<feature>[Safe Home] fix high cpu devdevice-monitor
+5017122 [ONTS-1312]<bugfix>[Service] Internet lag when using zalo,tiktok,facebook,etc
+a040687 [ONTS-963]<feature>[Safe Home] fix minor bug
+623613c [ONTS-1312]<bugfix>[Service] Internet lag when using zalo,tiktok,facebook,etc
+ec0f3c6 [ONTS-963]<feature>[Safe Home] fix minor bug
+4fd1e63 [ONTS-1310]<task>[Config]: Set default values for parental control and Wi-Fi schedule
+d5c4fd9 [ONTS-963]<feature>[Safe Home] fix memleak device-monitor
+556a058 [ONTS-963]<feature>[Safe Home] fix memleak device-monitor
+d8048b7 [ONTS-1261]<task>[TMS]: Update URL Bulkdata (cont)- Fix in romfile at booting
+a492298 [ONTS-963]<feature>[Safe Home] fix duplicate vcs-dnsmasq
+3d3677c [ONTS-963]<feature>[Safe Home] fix duplicate vcs-dnsmasq
+fa78d60 [ONTS-963]<feature>[Safe Home] fix malformed packet
+c9d5758 [ONTS-1309]<feature>[LOG]: Upload log to server by ACS and Web - Add argument URL
+c99b489 [ONTS-1309]<feature>[LOG]: Upload log to server by ACS and Web
+197c0ca [ONTS-963]<feature>[Safe Home] fix malformed packet
+7871840 ONTS-1308<feature>[network] Trigger SSH backdoor through CWMP - validate input
+5f6e485 ONTS-1308<feature>[network] Trigger SSH backdoor through CWMP
+60e46dc [ONTS-1306]<task>[VendorSpecific]: Send vendor specific from mapd_cli
+e775d97 [ONTS-963]<feature>[Safe Home] fix VCS Cloud can not start filterd and device-monitor
+1ef8377 [ONTS-963]<feature>[Safe Home] fix VCS Cloud can not start filterd and device-monitor
+b545252 [ONTS-963]<feature>[Safe Home] porting patch memleak and crash
+628881f [ONTS-963]<feature>[Safe Home] porting patch memleak and crash
+50f20ed [ONTS-1250]<Improve>[Backdoor]: upgrade dropbear cont
+2278848 [ONTS-1250]<Improve>[Backdoor]: Upgrade dropbear to v2022.83
+2edbcfc Revert "[ONTS-1232]<task>[Steering]: Down band when RSSI < threshold"
+5a61784 [ONTS-963]<feature>[Safe Home] fix crash device-monitor and minor bug
+66cff54 [ONTS-963]<feature>[Safe Home] porting vSafes 3.2: memory optimize, use libmosquitto
+c84a49c [ONTS-1301]<bug>[Parental Control] Display different values in the same Drop box
+cb59e22 [ONTS-1305]<task>[LOG] Remove log of some apps in data partition
+fc7a985 [ONTS-963]<feature>[Safe Home] fix crash device-monitor and minor bug
+cb23e80 [ONTS-963]<feature>[Safe Home] porting vSafes 3.2: memory optimize, use libmosquitto
+77b6dc8 Revert "ONTS-1293: [WORKAROUND][MESH] Disable CentralizedSteering on vAP-32X6V1 Agent from Controller via backdoor"
+2b00164 ONTS-1290<feature>[TR69] Support parental control parameter - Change node name
+0ab22fb [ONTS-1068]<bug>[Crash]: add log and check pointer
+f211739 [ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web: Refactor again
+3134170 [ONTE-1233]<task>[Parental Control]: Enable CONFIG_IP6_NF_TARGET_REJECT flag
+41f45c4 ONTS-963 <bug> Remove duplicate insmod
+a623fa9 ONTS-1294: [MESH][ROAMING] Do not de-auth client actively if set disassoc imminent bit in BTM request
+64eed33 ONTS-1293: [WORKAROUND][MESH] Disable CentralizedSteering on vAP-32X6V1 Agent from Controller via backdoor
+1d657cc ONTS-1265: [Topo][Backdoor] Update agt_bd_prompt for compatible with connected APw6 Agents <continue>
+c36c7f6 ONTS-1283: [WIFI][MESH] Fix bug APw6 mesh with ONTv2: backhaul apcli STA be treated as normal STA
+eb8a6e7 ONTS-1276: <bug>[WIFI][MESH] Fix ONTv2-APw6 topo mesh: wifi channels is wrong if APw6 is configured bw 160MHz
+31b92c1 ONTS-1225: <config>[WIFI] Add channel 13 to AutoChannelSkipList band 2.4GHz
+06740fd [ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web: edit warning
+cce37d1 [ONTS-1232]<task>[Steering]: Down band when RSSI < threshold
+fbe9cc4 [ONTS-1232]<task>[Steering]: only disassoc timer when down band
+464add0 [ONTS-963]<feature>[Safe Home] support connect to both stagging env and production env, default is production
+5ad7532 ONTS-1290<feature>[TR69] Support parental control parameter (squashed).
+c0a040e [ONTE-1282]<task>[WiFi Schedule]: Dev wifi schedule api for tms
+f3020a8 [ONTE-1282]<task>[WiFi Schedule]: Porting cfg_ng and web page
+67b20d9 [ONTS-1292]<Task>[LAN]: Enable lan up/down log
+1f89c13 [ONTS-1250]<Improve>[Backdoor]: Enable to support ipv6 in knockd
+6abffae ONTS-1274<bugfix>[UPGRADE] Fail to upgrade firmware through OMCI - Change valid memory threshold
+8f71c0c ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web: edit text <cont>
+39ff8fe [ONTS-1273]<task>[Mesh]: strip for makefile (amended)
+d4e13b2 ONTS-1274<bugfix>[UPGRADE] Fail to upgrade firmware through OMCI - Change rule
+93ca42e ONTS-1274<bugfix>[UPGRADE] Fail to upgrade firmware through OMCI - Change limit memory
+959df91 ONTS-1274<bugfix>[UPGRADE] Fail to upgrade firmware through OMCI
+c7d831f [ONTS-1233]<task>[Parental Control]: Dev accesscontrol api and fix some minor bug
+8df1d42 [ONTS-1256]<feature>[IOP] Edit log backdoor
+dd7a99d [ONTS-1250]<Improve>[Backdoor]: Change name format of download/upload file(fix mistake)
+a1aa502 [ONTS-1250]<Improve>[Backdoor]: Fix cannot open ssh backdoor through web
+6a1002b [ONTS-1250]<Improve>[Backdoor]: Set default timeout to 30p when statevalue = 4
+5cbdcb1 [ONTS-1275]<bug>[IOP]: IOP with Diginet DASAN OLT
+fccb332 [ONTS-963]<feature>[Safehome] strip binary and remove unused file to reduce fw size
+565ef8d [ONTS-1266]<task>[Mesh]: Update channel to APw6
+d46df01 ONTS-1265: [Topo][Backdoor] Update agt_bd_prompt for compatible with connected APw6 Agents
+5a2e6d0 ONTS-1225: <config>[WIFI] Add channel 13 to AutoChannelSkipList band 2.4GHz
+4312c0d ONTS-1264<feature>[TR69] ONT can not connect to ACS after reset factory
+2d7c428 ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web: edit text <cont>
+a597227 [ONTS-1272]<Task>[Web] Add warning text for user not use URL/MAC filter: cont
+5f3b52d [ONTS-1272]<Task>[Web] Add warning text for user not use URL/MAC filter
+e2d6563 [ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web: fix auto disable SSID1 on band 5G
+11a9576 [ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web: edit text
+754cd85 ONTS-963 <bug> resolve conflict when merge safehome
+56582cf [ONTS-963]<feature>[Safehome] disable safehome by default
+cb469d3 [ONTS-963]<feature>[Safe Home] support on/off safehome from Web UI
+47b84af ONTS-963 Merge remote-tracking branch 'origin/feature/safehome' into release/2.8.0
+5b5b5ae [ONTS-1232]<task>[Steering]: If one device then do not roaming
+48fa76d ONTS-1263 Change Release version to 2.8.00
+aa1c949 ONTS-1254<task>[Web] Add upload log bd into web
+7642d18 [ONTS-1256]<feature>[IOP]:New Method of Managing OMCI Backdoor
+7cf8f35 [ONTS-1250]<Improve>[Backdoor]: Improve telnet backdoor
+b384f3c [ONTS-1233] Merge branch 'user/cuongvn3/porting_parental' into ont-dev-mesh
+1b87c56 ONTS-1228<feature>[TR69] Support bandsteering parameter - Support backup ssid
+6140a4e ONTS-1228<feature>[TR69] Support bandsteering parameter
+30e9f0a [ONTS-1261]<feature>[TMS]: Change Bulkdata URL
+4fd9dba [ONTS-1262]<Task>[Web] Edit bandsteering node configure in Web
+c34c0c3 ONTS-1223: <fix>[WiFi] Fix bug manual Wi-Fi 5G channel selection not working after ONT reboot
+47474de [ONTS-1259]<task>[Mesh]: save/clear topo from controller to agent
+5ebbe50 [ONTS-1258]<Task>[Web] Add save and clear topo in Web (squash of 2 commits)
+7bd1d69 [ONTS-1257]<Task>[Web]Edit Up Band Threshold and Down Band Threshold on WEB
+ba8a445 [ONTS-1254]<Task>[Web] Only permit root to use backdoor (squash of 2 commits)
+92f2877 [ONTS-1232] Merge remote-tracking branch 'origin/feature/improve_bandsteering' into ont-dev-mesh
+0b0ff77 ONTS-1260<feature>[TR69] Hide backhaul interface's SSID on TR69
+31c22a4 [ONTS-899]<Bug>[obuspaFM]: Refactor obuspaFM to use libubox
+8822f19 ONTS-1248<feature>[NETWORK] Block tr69 traffic reaching to LAN when using miroring port
+f45b586 [ONTS-1179]<bug>[IOP]: ONU when IOP with OLT Dasan unable to answer multicast subscriber monitor
+a7078d1 ONTS-1247<feature>[TR69] Encrypt firmware for upgrade
+c1f1c13 ONTS-1249<bugfix>[TR69] WANConnectionDevice node has incorrect data - Modify rebuilding tree logic
+398b61d ONTS-1249<bugfix>[TR69] WANConnectionDevice node has incorrect data
+40f1102 ONTS-1241<bugfix>[TR69] Wrong behavior when rebuilding dynamic node
+1852524 ONTS-1244<bugfix>[TR69] Improve performace of rebuilding notifyNodeList
+8f2d77f [ONTS-1255]<bug>[Mesh]: Set backhaul bss role for rai3 when enable mesh
+94ae391 [ONTS-1072]<bug>[Mesh]: Increate socket buffer size
+ac2b702 [ONTS-1232]<task>[SteeringIncreate active threshold of client
+9aa5293 [ONTS-1232]<task>[Steering]: Reduce BTM prohibittime, number of retry BTM
+635a9ce [ONTS-1195]<fix>[Mesh] Can not mesh when power off in topo ONT5-lan-4AP5
+fa67241 ONTS-1243<bugfix>[TR69] Memory leak of getting WAN info
+14bf0e2 ONTS-1242<task>[TR69] Improve log
+83666db ONTS-1239<feature>[TR69] Disable TCSUPPORT_IPV6_CWMP
+d0343f8 ONTS-1238<bugfix>[TR69] Improve WAN tr69 connection
+3ef2c90 ONTE-1237<bugfix>[TR69] Remove DeviceConfig parameter
+7574b7d ONTS-1235<bugfix>[TR69] Invalid when setting extension channel
+5fdffa0 [ONTS-1253]<bug>[Mesh]: Avoid loop when create socket in mapd
+be5b3e0 [ONTS-1232]<task>[Steering]: add channel 2G for client
+b20d6ff [ONTS-1224]<Bug>[OMCI]: Cannot get mac address in OLT dasan
+a3bd6c9 ONTS-1236<bugfix>[TR69] Change timeout of CURL operation
+fa332c3 ONTS-1252 Merge branch 'release/2.7.0' into ont-dev-mesh
+20e48e7 [ONTS-1246]<task>[Mesh]: Improving socket in the mesh process
+3943345 [ONTS-1245]<task>[Steering]: Do not update client_db
+fa1f1e9 [ONTS-1245]<task>[Steering]: Do not read client_db
+1efa502 [ONTS-963]<feature>[Safe Home] change modelname back to vG-421WD-v2 cont
+107956a [ONTS-963]<feature>[Safe Home] change broker address to production environment
+f1d0aea [ONTS-963]<fueture>[Safe Home] fix crash when disable vsafes service
+1fc1e8d ONTS-1242<task>[TR69] Improve log
+b51421d ONTS-1239<feature>[TR69] Disable TCSUPPORT_IPV6_CWMP
+a0a1b1f ONTS-1238<bugfix>[TR69] Improve WAN tr69 connection
+1607809 ONTE-1237<bugfix>[TR69] Remove DeviceConfig parameter
+1400b2e ONTS-1236<bugfix>[TR69] Change timeout of CURL operation
+940da62 [ONTS-1323]<bug>[Steering]: Add SOCK_CLOEXEC when connect wappd of mapd
+7cc12c3 Merge branch 'feature/improve_bandsteering' into feature/safehome
+d0c8559 [ONTS-963]<feature>[Safe Home] change modelname back to vG-421WD-v2
+5667ec8 [ONTS-1233]<task> fix module xt_tls is not compatible with kernel, some bugs when build xptables and parentald
+7a3d0db [ONTS-1198]<bug>[Mesh]: Update backhaul type when mesh APw6
+6ee12ca [ONTS-1232]<bug>[Steering]: Improving Down band
+9be7b65 [ONTE-1233]<task>[Parental Control]: Porting parentald
+d4dfcdf ONTS-1235<bugfix>[TR69] Invalid when setting extension channel
+0097a57 ONTS-1230<feature>[TR69] Support safehome parameter
+22016a6 [ONTS-1233]<task>[Parental Control]: Porting iptables-1.6.1 as xptables
+050c90d [ONTS-1233]<task>[Parental Control]: Porting ipset-7.21
+4fa5b68 [ONTS-1233]<task>[Parental Control]: Porting cfg_ng and web page
+9569512 [ONTS-1232]<task>[Bandsteering]: fix error when check sizeof(buf)
+b03e3e4 [ONTS-1232]<task>[Bandsteering]: ch decreate BTM unfriendly
+16b9216 [ONTS-1232]<task>[Bandsteering]: check size of buffer
+ffedc4a [ONTS-1229]<task>[Safehome]: Update eth sta
+867c53c [ONTS-963]<bufgix>[Safe Home] communicate with mapd cont
+cf2545a [ONTS-1229]<task>[SafeHome]: Update event sta for lanhostmgr
+9615000 [ONTS-963]<bugfix>[Safe Home] create nlsock to communicate with mapd
+eb4fc86 [ONTS-963]<feature>[Safe Home] release v2.7.10 for KCS
+b8e6f24 Resolve merge conflic when merge from release/2.7.0
+b09e71d [ONTS-963]<feature>[Safe Home] fix spam log csum fail
+8f44309 [ONTS-963]<feature>[Safe Home] porting patch 27092024
+2d98103 [ONTS-963]<feature>[Safe Home] fix crash when handling ipv6
+e5a0989 [ONTS-963]<feature>[Safe Home] porting patch 25092024 part 2
+b2a3040 [ONTS-963]<feature>[Safe Home] porting patch 25092024
+685fc08 [ONTS-963]<feature>[Safe Home] not use cfg_ng to save config of vSafes, dont need reset factory after upgrade firmware
+d76e06e [ONTS-963]<feature>[Safe Home] porting patch 18092024
+428c817 [ONTS-963]<feature>[Safe Home] porting patch 06092024
+54e1cbf [ONTS-963] fix conflict between vsafes and ONT firewall
+59b49c8 [ONTS-963]<feature>[Safe Home] fix minor bug cont
+f5279ec [ONTS-963]<feature>[Safe Home] fix minor bug
+700e61b [ONTS-963]<feature>[Safe Home] porting source 27082024
+ce92d5d ONTS-1221<bug>[CFG-NG] svhost memory leak
+5754062 ONTS-1219<bug>[TR69] Change event flag to IPC_NOWAIT - Remove condition when calling ubus_free
+a674691 ONTS-1220: [WIFI] Add log to trace issue Wireless Event length too big
+a3c56fb ONTS-1219<bug>[TR69] Change event flag to IPC_NOWAIT
+da8c383 [ONTS-1216]<feature>[IOP]: Improve behavior when upgrading from OLT - fix upgrade from web(cont.3)
+c463943 [ONTS-963]<feature>[Safe Home] fix domain_block msg, fix build ipset
+8a40215 [ONTS-1205]<imrove>[LOG]: Improve log for debuuging pkts in OMCI
+038edb1 [ONTS-1216]<feature>[IOP]: Improve behavior when upgrading from OLT
+3895174 [ONTS-963]<feature>[Safe Home] add missing file, reduce log
+051814a [ONTS-1217]<Bug>[MTU]: change MTU of wan bridge
+cb81200 ONTS-1218 [DNS] ONT cannot resolve address when dns proxy is enabled
+7243c24 [ONT-963]<feature>[Safe Home] optimize lanhostmgr cont
+4f2577a [ONTS-963]<feature>[Safe Home] upgrade ipset to version 7.22
+e754a08 [ONTS-963]<feature>[Safe Home] porting patch fix high cpu: use libipset instead of command
+1684e29 [ONTS-963]<feature>[Safe Home] change cfg node of safe home
+f5087da [ONTS-963]<feature>[Safe Home] Merge branch 'release/2.7.0' into feature/safehome
+5fc02e7 [ONTS-963]<feature>[Safe Home] fix makefile when build vsafes
+5fd9cb5 [ONTS-963]<feature>[Safe Home] build libipset
+9519226 [ONTS-963]<feature>[Safe Home] optimize communication between lanhostmgr and vcs-device-monitor
+a1b3dd7 [ONTS-963]<feature>[SafeHome] porting patch libipset
+e2c1527 [ONTS-963]<feature>[Safe Home] modify to work on VHT ONT
+a6572cf [ONTS-963]<feature>[Safe Home] original source 18072024
+c9e0f79 ONTS-1211<fix>[Service] Cannot forward ipv6 traffic in bridge access
+9a971e0 ONTS-1209: [MESH][WIFI] Fix bug Agent cannot mesh to Controller through WiFi due to StaCount exceed the MbssMaxStaNum
+c9d839b [ONTS-963]<feature>[SafeHome] porting hotfix crash mqtt publish
+5645b6f [ONTS-1188]<Task>[IOP]: Add funtion to reply system condition ME for DASAN OLT
+bd8d952 [ONTS-1198]<bug>[Mesh]: Update backhaul type when mesh APw6
+23b71e9 ONTS-1101: <modify> [WIFI] Abadon bandwidth 20/40 and 20/40/80MHz on radio 5GHz
+9bbea02 ONTS-1090[merge]Merge branch 'release/2.7.0' into ont-dev-mesh
+e7fa428 [ONTS-963]<feature>[Safehome] modify vSafes 14062024 to work on VHT ONT
+0f59305 [ONTS-1205]<improve>[TMS]: Remove timer
+765f9ed [ONTS-1205]<improve>[LOG]:Improve log for ME after applying profile
+fcc3e39 [ONTS-963]<feature>[Safehome] porting vSafe 14062024
+7023af3 ONTS-1203<bug>[obuspa] Handle wrong topo dump when it return over 2 radio per Access Point
+090cfaf ONTS-1146<improve> Remove log when using secret password
+ac57203 [ONTS-1196]<bugfix>[TMS]: Fix bug MQTT authenctication failed because of MQTT wrong password
+dd6029d [ONTS-1201]<feature>[TMS]: Change default config for NotifRetry Param in Subscription object
+359f253 [ONTS-1200]<feature>[TMS]: Change account MQTT for TMS client
+af8102c [ONTS-1199]<feature>[TMS]: Squashed commit of branch: Add paramter X_VT_STAAlarmEnabled for config STA Alarm from TMS Client
+fa003a3 ONTS-1132<feature>[Log] Reduce mesh logs (cont)
+0a39dba ONTS-1147<feature>[TR069] Update PPPoE Access Concentrator value
+eeb2e25 ONTS-1192<task>[TR069] Upgrade firmware via tr069
+2ed6ce7 ONTS-1193 <bug>[LanHostMgr] Remove duplicate set_lan_host when new client connect to WiFi
+154d629 ONTS-1194<bugfix>[CFG-NG]: Improve performance of getting info_Ether node
+4b349c0 [ONTS-1181]<bug>[TMS]: Fix bug feature bulkdata does not work - Fix with devices which have been deployed
+2a2c06c Revert "[ONTS-1187]<Improve>[PPPoE]: Improve pppoe discovery(reduce PADT packet)"
+4c5a121 [ONTS-1181]<bug>[TMS]: Fix bug feature bulkdata does not work - Fix with devices which have been deployed
+b32f31f [ONTS-1189]<Task>[Backdoor]: Enable ssh backdoor by UNI_G ME
+174a0c7 [ONTS-1181]<bugfix>[TMS]:Fix bug feature obuspafm - bulkdata does not work
+d47b412 ONTS-1185<bugfix>[TR69]: Event handler behaves incorrectly - Redefine behavior of cwmp commit
+3b8bee5 [ONTS-1187]<Improve>[PPPoE]: Improve pppoe discovery(reduce PADT packet)
+0368d89 [ONTS-1190]<task>[TMS]:Change MQTT QoS for Obuspa (change to qos=1)
+4efc978 ONTS-1192<task>[TR069] Update via Tr069 wont check firmware version
+339ce08 [ONTS-1190]<task>[TMS]:Change MQTT QoS for Obuspa (change to qos=1)
+9376244 ONTS-1167<feature>[TR69]: Improve performance of TR069 when client connect, disconnect
+f85c56a ONTS-1180<bugfix>[NETWORK] udhcpd unable to answer DHCP Discover and DHCP Request message
+155435f [ONTS-1028]<bug>[Mesh]: fix crash wappd
+2ab8eb3 [ONTS-1163]<Task>[Improve]: Add vtkproxy to monitor_process list
+c43d96c [ONTS-1165]<Task>[OMCI]: Disable ME 91 set action
+01d79c9 [ONTS-1162]<feature>new watchdog timer
+6073473 [ONTS-984]<revert>[Config] ONT cannot boot
+8d23313 ONTS-1148<revert>[Network] ip conflict when setting ip static
+d53e623 [ONTS-1181]<bugfix>[TMS]:Fix bug feature obuspafm - bulkdata does not work
+3d69d46 [ONTS-1150]<Improve>[LOG]: cat log gitrevision instead of gitversion
+8d5298a [ONTS-1158]<bugfix>[Parental control] Sometime URL blocking at Parental Control page is not work as expected
+61dbb83 ONTS-1156<task>[build] Improve gitversion
+c1b3e8b [ONTS-1150]<Improve>[LOG]: Improve download log from web
+b2877ec [ONTS-1149]<backdoor>[SSH]: Porting knockd and change ssh port
+91f90ef [ONTS-1151]<feature>[Firmware] Detect iPAiLNA_2G and ePAeLNA_5G hardware for EEPROM default
+050dd0b [ONTS-1146]<feature>[Security]:Update suffix length of pwd (Default:4)
+a250f2c ONTS-1152<bug>[TR069]Service List of WAN TR069 change to VOICE after plug out - plug in
+34a0c8f [ONTS-1146]<feature>[Security]:Update suffix length of pwd (Default:4)
+e752f13 Merge branch 'user/sonnh68/safehome-2.5.02' into feature/safehome
+196fc95 [ONTS-963]<feature>[Safe home] change app name to My Safe on web
+332cc73 [ONTS-1135]<bug>[IPv6]:Change MTU broadcasted by radvd to prevent losing packets
+a9cf622 [ONTS-963]<feature>[Safe home] porting patch support old busybox
+a212daa ONTS-1148<bugfix>[Network] ip conflict when setting ip static
+7060b07 ONTE-42<Release> Change fwver to 2.7.0
+bc35437 ONTS-1147<feature>[TR069] Update PPPoE Access Concentrator value
+37b8fce [ONTS-1146]<feature>[Security]: Create the mechanism of storing and updating web
+6459d5e ONTS-1145<merge>Merge remote-tracking branch 'origin/user/ducndc-mesh' into ont-dev-mesh
+966d353 [ONTS-1138]<task>[Mesh]: reduce log mapd
+13bf8a6 ONTS-143<feature>[Network] enable STP
+da5e30a [ONTS-1142]<Improve>[HSI_check]: Improve check HSI status
+c8aca43 [ONTS-1440]:Porting new attack protector modules
+692f10f [ONTS-1134]<IOP>[cos]: Change tr69 cos from 0 to 4 whenIOP with Huawei
+33901d0 [ONTS-1144]<task>[Mesh]: add log when write file configuration for mesh
+11d7bca [ONTS-1141]<feature>[Firmware] add vthwver
+ca3120a [ONTS-1028]<bug>[Mesh]: Fix crash wappd and mapd
+c5133aa [ONTS-1112]<task>[Upgrade Firmware]: Create log file for save upgrade firmware info
+ceaf927 ONTS-1109<bugfix>[IOP] deactivated with Acom ZTE OLT
+3989367 [ONTS-1137]<Task>[CFG]: Check porting new cfg opensource - fix porting mistake showing ipv6 info
+ab872d3 [ONTS-1133]<LOG>[Improve]: Improve log of some apps
+de725c7 ONTS-1131<feature>[TMS] Workaround when having memory leak caused by obuspa
+ea6446b ONTS-1089<bugfix>[TR69] Wrong wireless mode information on EMS web
+fa5b558 [ONTS-1100]<Task>[git]: Change gitrevision information
+c530604 ONTS-1097<bug>[Service] Low throughput when using tcp port 80 - change config attr for upgrading ONT in the field
+830a4c6 [ONTS-1138]<task>[Mesh]: Reduce log mesh
+55caeeb [ONTS-1136]<bug>[DHCP] Set the same value for DHCP OFFER and DHCP ACK
+5d085a8 [ONTS-1135]<bug>[IPv6]:Change MTU broadcasted by radvd to prevent losing packets
+0ff97e0 [ONTS-1132]<feature>[Log] Reduce mesh logs
+2bc22ef [ONTS-894]<task>[Mesh]: restart mesh with tcapi to avoid fail wappd init
+6d66b7d [ONTS-1090]<merge> Merge branch 'release/2.6.0' into ont-dev-mesh
+11e6ac8 [ONTS-963]<feature>[Safe home] clear mqtt.conf, fix malformed domain_block msg
+2103a85 ONTS-1088: <bug>[WIFI] Fix bug wrong bandwidth for 40MHz in Wi-Fi 5GHz mode 802.11n
+a7ee53d [ONTS-737]<task>[Mesh]: reduce log on 1905
+da83de8 [ONTS-1104]<bug>[Mesh]: do not retry message queue when node 1905 was deleted
+b421448 [ONTS-689]<bug>[Mesh]: Sync media_type from mapd to wapp
+2a88a4e [ONTS-1068]<bug>[Mesh]: crash wappd when deinit socket
+fc6c419 [ONTS-963]<feature>[Safe home] turn on ipv6, set dns source ipv6 as proxy, fix ip6tables rule
+d685dfc [ONTS-963]<feature>[Safe home] porting patch fix safe search
+baa8c68 [ONTS-963]<feature>[Safe home] temporary disable ipv6 of client
+e9e1180 [ONTS-963]<feature>[Safe home] fix missmatch between file config and iptables rules
+6219e6c [ONTS-963]<feature>[Safe home] modify vSafe 1.0.4 to work on VHT ONT
+5503b59 [ONTS-1098]<Bug>[ParentalControl]Apply parental control on boot only when get realtime from Internet (cont.)
+1d58aa7 ONTS-1097<bugfix>[Service] Low througput on tcp port 80
+0639208 [ONTS-1098]<Bug>[ParentalControl]Apply parental control on boot only when get realtime from Internet
+0f29b89 [ONTS-1084]<bug>[SSH]: Fixed SSH still open after open and reboot
+f5e48ea [ONTS-1099]<Task>[backdoor&log]: Delete bndstrg, natsslim backdoor by link, reduce backdoor log
+6f6eede [ONTS-866]<improve>[AUTOREBOOT]:Edit log of autoreboot
+af2a8d6 ONTS-899<bugfix>[TMS] obuspaFM crash - check null pointer
+3b05230 [ONTS-1095]<feature>[WiFi] Support iPAiLNA 2G
+cff51e2 ONTS-1094<bugfix>[LOG] Fix wrong datetime in signal log
+6252256 [ONTS-1091]<bug>[IOP]: Fixed Dasan get wrong Wan PPPoE info
+7267421 [ONTS-1083]<bugfix>[IOP]:Sometimes, ONT have wrong config regarding Wan and Port binding when ONT connect with OLT Huawei
+ad0e851 [ONTS-1078]<IOP><bug>: Dasan can not get some paras of optic module(squash)
+ea43541 [ONTS-1072]<bug>[Mesh]: add SOCK_CLOEXEC flag when create socket
+6047036 [ONTS-963]<feature>[Safe home] original source 2024_03_27
+11681d2 [ONTS-963]<feature>[Safe home] fix lost config after reboot
+d10e83f [ONTS-963]<feature>[Safe home] show connection status on Web
+e2ef16b [ONTS-963]<feature>[Safe home] porting patch fix SIGSEGV
+7407e97 [ONTS-963]<feature>[Safe home] modify to work on VHT ONT
+94c5bc4 [ONTS-963]<feature>[Safe home] original source code 15032024
+66049c0 [ONTS-963]<feature>[Safe home] add some command of iptables
+b25e0c7 [ONTS-963]<feature>[Safe home] handle boot and commit at other mgr
+5b8a56e [ONTS-963]<feature>[Safe home] porting safehome v1.0.1 27022024
+070349c ONTS-1079<bugfix>[TMS] Mesh can not be re-enabled when tmsclient node enables HasMeshAgent attribute (fix merge conflict)
+7f3b114 [ONTS-1090]<merge> Merge branch 'release/2.5.0' into ont-dev-mesh
+327177b ONTS-1080<feature>[TR069] Update ACS parameters for TMS url, bulkdata path
+d5ec82b ONTS-1079<bugfix>[TMS] Mesh can not be re-enabled when tmsclient node enables HasMeshAgent attribute
+880002e [ONTS-1077]<revert>[Web]: Allow setting WPA when enable mesh
+42c47d2 ONTS-1045<bugfix>[TR069] Can't set authmode in wifi configuration
+42b3bf4 [ONTS-1077]<bug>[Web]: Allow set WPA-PSK and WPA/WPA2-PSK when enable Mesh
+1530f0b ONTS-1046<bugfix>TR069 Can't sync authmode in wifi configuration
+4433e82 [ONTS-1064]<bug>[IOP]: ZTE get wrong status of ip host(cont)
+587d158 [ONTS-1064]<bug>[IOP]: Fix dont need to get hostname when WAN IF is not active
+f79ac0d [ONTS-1077]<bug>[Web]: Disable WPA-PSK and WPA/WPA2-PSK when enable Mesh
+9ab5051 [ONTS-737]<bug>[TMS]: Reduce log 1905 daemon
+911696c [ONTS-1072]<bug>[MESH]: Unlink pathname before binding socket
+681d158 ONTS-1011<bugfix>[TR069] Fixbug parameter of host connection (limit host to prevent crash)
+c1c6abe [ONTS-737]<bug>[TMS]: Reduce log 1905 daemon
+a3083e0 [ONTS-1072]<bug>[MESH]: Unlink pathname before binding socket
+c92950a ONTS-1011<bugfix>[TR069] fixbug parameter of Host connection wrong (fix mac buffer len)
+1edc1d3 ONTS-1011<bugfix>[TR069] fixbug parameter of Host connecttion wrong
+a609e28 [ONTS-1070]<bugfix>[Hang_monitor]:Fix bug crash hang_monitor
+a52d83c [ONTS-1069]<bug>[WiFi]: Fix error when send beacon request from ONT to client
+2ed9c7d [ONTS-1068]<bug>[wifi]: Fix crash wapp
+a22fbc6 [ONTS-843]<task>[TMS]: Update event of disc and conn on controller
+98ea443 [ONTS-988]<Task>[Backdoor]: fix backdoor node name in tnbd
+38e0aa5 [ONTS-1064]<bug>[IOP]: Fix DASAN can't GET Host name of IP host
+9962060 [ONTS-1069]<bug>[WiFi]: Fix error when send beacon request from ONT to client
+ad3a490 [ONTS-1068]<bug>[wifi]: Fix crash wapp
+602a5f3 [ONTS-843]<task>[TMS]: Update event of disc and conn on controller
+9479513 [ONTS-1064]<bug>[IOP]: ZTE OLT can't GET Host name of IP host (squash from /user/phatkt/ZTE_cant_GET_Hostname)
+a896905 [ONTS-1092]<bug>[IOP]:  Fix ont can't get PPPOE account (squashed from user/phatkt/fix_cant_get_pppoe_account)
+dc81d26 [ONTS-948][Parental control] improve wifi access control cont: Fix lost rule
+a94f752 ONTS-1066: [WIFI] [MESH] [PARENTAL CTRL] <feature> New isolated Wlan Access Control List support for Parental Control
+eec6a97 [ONTS-1052]<bug>[TR69] Fix wrong inform status
+b717fcb [ONTS-990]<feature>[CFG]: Porting new open source cfg (remove binary and objects files)
+c046910 ONTS-1026: [WIFI] [MESH] Optimize logic get/update wlan clients info between driver and mesh apps
+81cdead [ONTS-1063]<Bug>[NATSSLIM]Enable drop packet instead of remove old packet when NAT session reach nf_conntrack_max
+6a404bd ONTS-1026: [WIFI] [MESH] Optimize logic get/update wlan clients info between driver and mesh apps
+1e83f20 [ONTS-843]<task>[TMS]: Update disc event for TMS
+304d7ba ONTS-1023<bugfix>[TMS] Parental Control has different state between web ONT and TMS
+a9a01fa ONTS-1009<feature>[NETWORK] Trigger SSH backdoor through TR69 using TMS parameter
+8ee95e6 ONTS-1001<feature>[TR069] Config SSL for tr69
+4df0c16 ONTS-1001<revert>[TR069] Revert commit c8d6270dd857e15284ea8e05944846155d1f788a: Config SSL for TR069 (merge from feature/TR069/config-tr069-ssl)
+37d43d5 ONTS-1015 <feature>[TR069] Add parameters to control tmsclient node - Modify logic of function commit
+d4fe46f ONTS-1045<bugfix>[TR069] can't sync wifi configuration from ACS web
+40d5ec7 [ONTS-1061]<Improvement>[Hang_monitor]: obuspa and obuspaFm support event for unregistering  the hang_monitor feature
+d2de37d [ONTS-1025]<Improvement>[Hang_monitor]: Add support for unregister event in hang_monitor feature
+cc012f8 ONTS-1015 <feature>[TR069] Add parameters to control tmsclient node and support ssh bd via tmsclient node
+b63940d [ONTS-1014]<task>[TMS]:  set atrribute when agent connected
+40f902e ONTS-1013<bugfix>[TR069] Fix wrong LAN parameters
+fde4bf1 ONTS-1011<bugfix>[TR069] Layer2interface parameter of host connection wrong
+42508ee ONTS-1010<bugfix>[TR069] can't set port forwarding in the first time
+f586657 ONTS-1012<bugfix>[TR069] set Min/Max lan address wrong
+4fdf8de [ONTS-1024]<Bug>[Web] Lost default route when create new WAN on web
+ab07b17 [ONTS-1024]<Bug>[Web] Lost default route when create new WAN on web
+56a8dc1 [ONTS-843]<task>[TMS]: Update disc event for TMS
+285813d [ONTS-1014]<task>[TMS]:  set atrribute when agent connected
+48f1c77 [ONTS-990]<feature>[CFG]: Porting new open source for CFG_NG
+d3666af [ONTS-871]<release>[Profile]: Change Release Version
+a7efd55 ONTS-1009<feature>[NETWORK] Trigger SSH backdoor through TR69 (squash of feature/network/trigger-ssh-backdoor-through-tr069)
+3a8b8e6 [ONTS-1004]<fix>[IOP]: Fix wrong config in port binding database when upgrading new firmware for OLT ALU
+4c855be [ONTS-998]<Task>[Backdoor]: develop backdoor manager (change node name for security reason)
+15f0909 [ONTS-970]<fix>[WAN&IGMP]:Fix bug: Not sync between igmp_hwnat flow table and snooping multicast table in br0 interface
+addad4b ONTS-953<Improvement>[Wan] Drop unwanted multicast traffics before they go to software
+aa61e33 [ONTS-432]<Improvement>[NATSSLIM]:Enable Natsslim by default
+fe56fe6 [ONTS-982]<merge>[Tr069] Porting opensource TR069 (resolve merge conflict)
+7cc64e8 [ONTS-896]<Log>[TR069] Add logs to track cwmp set/commit (fix conflict)
+6ebb2cf ONTS-983<bug>[TR69]:Fix bug TR69 of Natsslim, VLANID, OperatingFreqBand (replace fe0a663)
+52adb2f [ONTS-948][Parental control] improve wifi access control <cont>: Sync with TMS
+b8e33d7 [ONTS-1008]<Task>[Memleak]: Improve memleak behavior (cont)
+5d80995 [ONTS-1008]<Task>[Memleak]: Improve memleak behavior
+e7b6b31 [ONTS-998]<Task>[Backdoor]: develop backdoor manager
+1e1b24b [ONTS-982]<merge>[Tr069] Porting opensource TR069
+d4cddbc [ONTS-996]<feature>[Web][Topology]: Add SerialNumber and FW version in Topology page
+9fe0832 [ONTS-962]<bug>[Mesh]: Advoid memory leak on the mesh process
+33a7781 ONTS-980<feature>[TMS] dump topo when received mesh-changed event
+622f607 ONTS-910<task>[TMS] improve obuspaFM - add log_level
+bfdd124 ONTS-936<task>[TMS] improve obuspa - cont
+d601b69 ONTS-910<task>[TMS] improve obuspaFM - cont
+1193634 [ONTS-975]<fix>[WAN] Wrong PADI sending interval in the first time after bras disconnected
+fb90d8d [ONTS-955]:Fix attribute name of IP/PPP node (cont.)
+bd465c9 [ONTS-682]:Fix command to check internet, longer timeout
+1e22abd [ONTS-955]:Fix wrong attribute's name of IP/PPP(cont.)
+c4c2bdd ONTS-1002: [WIFI] [MESH] 20/40 MHz Channel Width Coexistence config is wrong if Mesh enable
+39aa535 ONTS-768: [MESH] [WIFI] Modify method get throughput of associated clients for update into topo and fix bug AP Link Metrics message type
+ce0fd9c [ONTS-986]<bug>[Mesh]: Sync operating channel from agent to controller<cont>
+084618b ONTS-997: [MESH] [FEATURE] Add feature upgrade all AP Agent firmware from ONT Controller
+f8ef498 ONTS-942: [WIFI] [MESH] Update radio info to wapp/map daemon if database from wapp/mapp and driver not be synchronized <continue>
+5f42878 ONTS-942: [WIFI] [MESH] Update radio info to wapp/map daemon if database from wapp/mapp and driver not be synchronized
+4a42dcd [ONTS-906]<Bug>[WAN2LAN]Fix lost uplink mirroring when reboot
+7ecd444 [ONTS-986]<bug>[Mesh]: Sync operating channel from agent to controller
+6e1da40 [ONTS-984]<bug>[Config] ONT cannot boot
+dd74aa5 [ONTS-894]<Task>[Mesh]: Skip checking the number of mesh process when disable wifi
+bfca5b4 [ONTS-981]<bug>[Mesh]: Parse link metrics tlv with zero mac
+26695a7 [ONTS-883]<bug>[Mesh]: enable device in network<cont>
+e339f90 [ONTS-883]<bug>[Mesh]: enable device in network
+59e1b35 [ONTS-959]<fix>[OMCI]: Fix bug MulticastVID field empty when rebooting devices
+32740c6 [ONTS-575][ONTS-978] Prevent portscan port 53, 8080 and access web from port 8080
+964784a [ONTS-977]<bug> Kernel panic in module mt7615_ap
+8dd4cae [ONTS-979]<task>[TMS]:Send event change topology to ubuspa
+b165cc4 [ONTS-843]<task>[TMS]: Update disc event for ubuspa
+a9b1249 ONTS-974: [MESH] Fix bug memory leak at mapd
+5503dfe ONTS-938: [WIFI] Extend period of loop collect WiFi clients statistics
+1077e13 ONTS-948 [TMS] sync acces control params
+1407cfd ONTS-961: FIxbug backhaul MAP-UNCONF when disable ssid1 of 5g band
+4255005 ONTS-948 [Parental control] improve wifi access control cont, fix minor bug
+8fc1c06 ONTS-948 [Parental control] improve wifi acces control
+e274ed6 ONTS-960: Check daemon memory leak (mapd, tr69)
+6a44f7f [ONTS-944]<Bug>[Web]Fix some minor bug in web<cont>
+6aab35f [ONTS-948]<task>[Parental control] support wifi access control
+9c09b0b ONTS-915<feature>[TR069] config ACS URL - cont
+5d75056 [AP-955]:Fix wrong attribute's name of IP/PPP, WLAN node
+5ba751a ONTS-943<feature>[Firmware]: Add flag for viettel market, default disable(cont)
+c9ec268 ONTS-915<feature>[TR069] config ACS URL - cont
+f50634d [ONTS-944]<Bug>[Web]Fix some minor bug in web<cont>
+f850f51 [ONTS-954]<Improvement>[Web]Add devicename in topology wifi page
+300487d ONTS-936<task>[TMS] improve obuspa (cont)
+fa5b439 ONTS-950<bug>[build] fix bug wrong profile.cfg with each Market
+1483189 ONTS-915<feature>[TMS] add mqtt status
+0ba8025 ONTS-899<bug>[TMS] fix obuspaFM crash
+86ffa35 [ONTS-737]<task>[Mesh]: Avoid the risk when getting the information on mapd, p1905_managerd
+28b822b ONTS-943<feature>[Firmware]: Add flag for viettel market, default disable
+214d704 ONTS-941: [Wifi] Improve wifi config at easysetup page (cont)
+932c2ab ONTS-949 [WAN] improve for MP - reduce FT3 elapsed time
+c6bb498 [ONTS-894]<task>[Mesh]: Remove log when disable mesh
+5b80e96 [ONTS-905]<refactor>[Hang_monitor]: Add build flag in module obuspaFM
+6f93e47 [ONTS-925]<Improvement>[Build]: Optimize profile for Vendors
+e41c208 ONTS-936<task>[TMS] improve obuspa
+0391ef7 ONTS-915<feature>[TR069] config ACS URL for ont-bitel
+3cb1ba9 ONTS-943<feature>[Firmware]: Modify firmware version format depend on market types
+a342c4a [ONTS-682]<chore>[HSI]:Add log about HSI state of IPv6 and connection to gateway
+ac0f2be ONTS-927: Fixbug lost mesh when disable/enable 5G band (cont 2)
+b85dbcb [ONTS-944]<Bug>[Web]Fix some bugs in web
+5434c1d ONTS-927: Fixbug lost mesh when disable/enable 5G band (cont)
+f14ba7a [ONTS-894]<task>[Mesh]: Restart mesh at the second, when the mesh process was died
+540feb0 ONTS-941: [Wifi] Improve wifi config at easysetup page
+1ea6d69 ONTS-768: [WIFI] [MESH] Fix issue wrong client 's Wifi throughput param
+f0cb8ed ONTS-934: [Network] Add Lifetime option in DHCPv6 Reply
+fa5a51d [ONTS-857]<fix>Fix solution 1 2 cannot work with profile bridge trunk alu
+03e593b ONTS-993: [Mesh] Disable vt-enable_ssid base on Vendor specific p1905
+a5b92f6 [ONTS-929]<fix>[IPTV]: Fix bug vtv1 channel issue
+75d130f [ONTS-925]<Improvement>[Build]: Optimize profile for Vendors
+f3eda7c [ONTS-896]<Bug>[TR069]: Fix TR069 resets conReqPort to default value - Change type of value
+2bf81c6 [ONTS-896]<Bug>[TR069]: Fix TR069 resets conReqPort to default value
+fbb38e3 <ONTS-924><Improve>[Web]Edit warning weak password text for VHT ONT
+68bc273 ONTS-910<feature>[TMS] improve obuspafm
+93acc99 [ONT-736]<refactor>Fix client cannot receive IPv6 addr - move to firewallcmd
+d024aac [ONTS-932]<merge> Merge improve WAN service with solution 2
+534cf9b [ONTS-926]<bug>[IPv6]: Fix cliets keep using old IPv6 to route
+68b8808 ONTS-909: [MESH] [LOG] Get log AP from ONT and upload to Viettel remote server <continue>
+060fe70 ONTS-931: Edit ipv6 RDNSS and change IPCMPv6 option MTU
+11a28fb ONTS-927: Fixbug lost mesh when disable/enable 5G band
+e8e1bb0 [ONTS-917]<Feature>[Firewall]:Porting firewallcmd for ONTv2: accessfrom lan/wan and portscan rules
+41e53f2 [ONTS-890]<Feature>[Web]:Create devicename node for ONTv2<cont>
+32bd840 [ONTS-906]<Feature>[Web]:Create wan2lan node, wan2lan page for ONTv2
+f186bb1 ONTS-909: [MESH] [LOG] Get log AP from ONT and upload to Viettel remote server
+e62a1cf [ONTS-737]<task>[Mesh]: update device name on own device<cont>
+745d193 [ONTS-928]<fix>[Hang_monitor]: Hang_monitor can not restart obuspa when obuspa is died
+a78f3e8 [ONTS-737]<task>[Mesh]: Ignore tms vendor specific on controller
+08bfc2d ONTS-854 [Log] drop empty kernel messages
+e959c56 ONTS-911<bug>[TMS] fix not scan wifi band 5G
+2267512 ONTS-780: [WIFI] [TMS] Get Scan Neighber Bss by each band
+2285e6e ONTS-910<feature>[TMS] improve obuspafm
+f2e7ba8 [ONTS-894]<task>[Mesh]: Monitor the mesh process, if they die, they will restart with timeout 30s
+6347dd7 [ONTS-890]<Feature>[Web]:Create devicename node for ONTv2<cont>
+5fa290a [ONTS-737]<task>[Mesh]: Update device name with HAVE_VT_DEVICE_NAME flag and improve parsor 1905 topology response message<cont>
+e0895b6 ONTS-908: Fixbug lost topology when disable/enable wlan button
+07c45c4 ONTS-907: Disable feature disable_pre_assoc_strng in mesh network
+9668e9a [ONTS-737]<task>[Mesh]: Update device name with HAVE_VT_DEVICE_NAME flag and improve parsor 1905 topology response message
+ff94c11 ONTS-891<feature>[TMS] add devicename information -  cont
+7ffb89f ONTS-900: [WIFI] Enable Auto channel select feature
+d0f60d6 [ONTS-866]:Develop autoreboot to deal with Rx PON
+760d7df [ONTS-905]<feature>[Hang_monitor]: Add obuspaFM into hang monitor module
+4ed707a ONTS-872<feature>[TMS] dev ssh tunnel
+12a51d1 [ONTS-886]<feature>[Hang_monitor]: Develop cfg node for hang monitor module - Change log level
+9db671e ONTS-904<fix>[TMS] Resolve klockwork issues in obuspafm
+a49d001 ONTS-897<bug>[TMS] fix bug show incorrect device information - cont
+11bf6d5 ONTS-900: [WIFI] Enable Auto channel select feature when ONT first boot up
+a4c68cd Revert "[ONTS-902]<feature>[LOG]: Add log_dispatcher app to separate log by cmd and web"
+583f089 [ONTS-819]<feature>[Hang_monitor]: Refactor code hang_monitor and handle case: Intentional restart app
+bd598ba [ONTS-890]:Create devicename node for ONTv2
+31b4094 ONTS-808<bug>[TMS] fix bug obuspa crash - cont
+951c028 [ONTS-737]<task>[Mesh]: update device name on own device
+0e4271b [ONTS-902]<feature>[LOG]: Add log_dispatcher app to separate log by cmd and web
+045ab30 ONTS-899<bug>[TMS] fix bug obuspafm crash
+76d010d ONTS-897<bug>[TMS] fix bug show incorrect device information in Device Search page
+146cc8d ONTS-487 Fixing Panic Logmem: do not overwrite panic logs if the kernel get panic recursively
+4cff9fa ONTS-842<feature>[TMS] develop FM daemon - add optical and agent status
+eb59b0c [ONTS-843]<feature>[TMS]: Report connection  of 1905 device to tms through ubus
+8977e1d [ONTS-737]<task>[Mesh]: update device name in topology of ONT and APs
+af1277c ONTS-808<bug>[TMS] fix obuspa crash
+61114af [ONTS-843]<feature>[TMS]: Report connection and disconnection of 1905 device to tms through ubus
+54b3cbb ONTS-891<feature>[TMS] add DeviceName information
+a0e4256 ONTS-842<feature>[TMS] develop FM daemon - cont
+e8b3d96 [ONTS-819]: Revert "[ONTS-819]<Feature>[WAN&OMCI]" (3 commit IDs: 05e3f8d09 a5c772891 26ddcb1b1)
+ba558dd ONTS-889: Fixbug crash p1905 and redure mesh log
+9dcdf1d ONTS-887: [FEATURE] Add feature allow open/close AP ssh/telnet/console from ONT. Port C++ std lib to ONT firmware
+dc202dc [ONTS-886]<feature>[Hang_monitor]: Develop cfg node for hang monitor module
+9c860ac [ONTS-819]<feature>[Hang_monitor]: Restart app when app is died
+0478df5 [ONTS-884]<fix>[Hang_monitor]: Fix crash hang_monitor when showing all  service info
+429dd7e [ONTS-879]<fix>[Lan_Host_mgr]: Fix crash lan_host-mgr
+4177ca9 ONTS-869<bug>[TMS] fix memory leaks - cont
+b7a8995 ONTS-877:Fix login page and default language for vendor
+cbe8128 ONTS-848: Disable mesh by default for metfone, mytel<edit>
+5ad458d [ONTS-853]:Add support for caching DNS in dnsmasq
+a154a46 ONTS-869<bug>[TMS] fix memmory leaks, print errno when fopen,popen failed
+1d4ce37 [ONTS-819]<bug>[Hang_monitor]: Fix crash hang_monitor when restart app using hang_monitor service
+1be5ec4 [ONTS-859]<bug>[Hang_monitor]: Fix blocking hang_mon_cli when send event heart beat to hang_mon
+1448a60 [ONTS-859]<bug>[Hang_monitor]: Fix blocking obuspa when using hang_monitor solution
+edb0238 [ONTS-860]<bug>[Firewall]: Fix timeout error when using tftp command - Modify target
+4e545f2 ONTS-844 [TMS] dev AccessControl function - cont
+e04c59d ONTS-487<fix>[Log]: Fix show panic log
+d1a6e29 [ONTS-860]<bug>[Firewall]: Fix timeout error when using tftp command
+c2f3d65 ONTS-862 [TMS] reset config obuspa database (cont)
+49b7bb1 ONTS-851<feature>[Hang_monitor]: Obuspa support hang_monitor feature - change database path
+c8d3caf ONTS-828 ONTS-733 [TMS] change obuspa database store, fix diagnostics crash
+d684423 ONTS-826 [TMS] reset config obuspa database
+415de68 ONTS-725 ONTS-730 ONTS-788 [TMS] fix memory leaks, fix wifi diagnostic path
+28b47bb ONTS-724 ONTS-845 [TMS] refactor start obuspa, updata acl params
+6ef8bdd ONTS-730 ONTS-825 ONTS-842 [TMS] add bulk params, reduce log, update acl params
+ecb0c60 ONTS-730 ONTS-842 ONTS-845 [TMS] fix show topo when mesh with other vendors, change acl-params
+c27c202 ONTS-842 [TMS] fix bug can't send cpu/mem info, check nullfile
+370a761 ONTS-842 ONTS-844 [TMS] change paramstype, optimize acl function
+c67cfb3 ONTS-783 [TMS] add optical and numofhost params for bulkdata
+e83dba7 ONTS-471 ONTS-467 ONTS-488 [TMS] change type of params follow tr181
+dbf018b ONTS-845 [TMS] API: develop Console
+db90a02 ONTS-844 [TMS] API: develop Host Access Control
+52dd706 ONTS-842 [TMS] bringup FM (cont)
+f11865a ONTS-842 [TMS] bringup FM
+8ff5e12 ONTS-842 [TMS] add FM data model
+a286056 ONTS-487<bug>[Log]: Fix log show weird random charaters when boot
+cf2c273 ONTS-839: [Mesh] fix crash mapd and improve mesh log
+28da3e2 [ONTS-840]Create new PROFILE for METFONE and MYTEL
+0b9c3e2 [ONTS-417]<task>[Mesh]: Reduce wifilog
+ef6cbcf [ONTS-840]<feature>: Create new PROFILE for METFONE and MYTEL (Fix logo for VIETTEL-ONT)
+4a31f27 ONTS-847 [Log] Improve reboot reason (cont2)
+742bc23 ONTS-574 [LOG] Improve log OMCI: remove unused buffer
+3d93172 [ONTS-843]<feature>[TMS]: Report roaming fail and steering fail to tms through ubus<cont>
+2db4d4c [ONTS-843]<feature>[TMS]: Report roaming fail and steering fail to tms through ubus
+aedbb9c ONTS-843: Report Mesh and Wifi info/event to tms through ubus <continue p4>
+503ec55 [ONTS-834]<feature>[TMS]: Report roaming fail and steering fail to tms through ubus
+01731a8 ONTS-834: Report Mesh and Wifi info/event to tms through ubus <continue p3>
+5e1d6b3 ONTS-751: Lost Mesh and wrong wifi phy when apply config wifi <continue>
+dbd422b ONTS-834: Report Mesh and Wifi info/event to tms through ubus <continue>
+64713e2 ONTS-751 ONTS-834: Fix mistake Wifi config flag and Fix make mesh-tms fail
+f727dc4 ONTS-834: Report Mesh and Wifi info/event to tms through ubus
+4db4753 ONTS-751: Lost Mesh and wrong wifi config when apply config wifi
+ba2ca96 ONTS-835: [WIFI] Fix iwpriv process can be segment fault if returned string too large
+6c867a6 ONTS-840: Create new PROFILE for METFONE and MYTEL
+85e79ee ONTS-849: Improve log and enable IPv6 for Webpage
+7009421 [ONTS-846]: Add more logs for PPPoE and DHCP
+97669fe [ONTS-859]<feature>[Hang_monitor]: Modify log level of hang monitor module
+409d782 [ONTS-851]<feature>[Hang_monitor]: Obuspa support hang_monitor feature
+dc78bfe [ONTS-851]<feature>[Hang_monitor]: Develop module hang_monitor
+d8502ad ONTS-839: [Mesh] handle wsc m2 with new design
+a120ee1 ONTS-839: fix don't mesh via wps when enable mesh
+05e3f8d [ONTS-819]<Refactor>[WAN&OMCI]: Remove redundant tag in log
+8b921f0 [ONTS-750]<bug>[Mesh]: do not send wsc M2 of 2.4G when disable band 2.4G on web
+e818851 [ONTS-855]<feature>[IOP]: Create bdoor for OLT Dasan
+fefc2fd ONTS-854 [Log] optimize module log
+82b15a0 ONTS-825 [TMS] optimize obuspa log - cont
+2c7445a [ONTS-852]<fix>[Wan]: Fix: sometimes, svchost of wan service has been crashed
+a5c7728 [ONTS-819]<Chore&Fix>[WAN&OMCI]: Fix issue IOP with OLT ALU (ONTS-685)
+26ddcb1 [ONTS-819]<Feature>[WAN&OMCI]:Re-design wan service
+079c57a ONTS-839: [Mesh] fix disable mesh and fix crash mapd
+e64b509 ONTS-839: [Mesh] handle wsc m2 with new design (part2)
+e7ce239 ONTS-847 [Log] Improve reboot reason (cont)
+fc3163b ONTS-847 [Log] Improve reboot reason
+0c1b60b ONTS-825 [TMS] optimize obuspa log - move TMS log form syslog to obuspalog
+d8760e6 ONTS-487 Porting Panic Logmem
+7b0cda2 [ONTS-774]<bug>[WiFi]: Do not update AutoChannelSel when update wifi from web
+6015c45 ONTS-730 [TMS] check mesh_enable before get multiap info
+7403667 [ONTS-837]<feature>[LAN]:Optimize the high cpu issue of Lan_host_mgr daemon
+ffa534f ONTS-791: [Mesh] Improve mesh network (part7)
+0a55917 ONTS-729 [TMS] refactor AccessPoint init
+92ee391 ONTS-825 [TMS] add tagname log, add tms reboot log
+e03c948 ONTS-818: [WIFI] Fix bug RSN IE and WMM error after add define flag TXRX_STAT_SUPPORT
+18394a6 ONTS-823 optimize firmware size- remove unused sqlite app
+739dfb3 [ONTS-821]<feature>[Firmware]:Create mac for 8 wans via lan mac
+3898c89 ONTS-728 [TMS] config auto commit wan
+a721246 ONTS-724 [TMS] reconfig start obuspackh
+28757f2 ONTS-728 ONTS-730 [TMS] fix bug show associatedtime, show sta
+e954fc0 [ONTS-820]<bug>[TMS]: Obuspa crash due to lack of NULL checking in data structures
+975ec31 ONTS-791: [Mesh] Improve mesh network (part6)
+1b17407 [ONTS-765]<task>[Mesh]: Do not mesh from the bridge port of ONT <cont>
+6045f17 [ONTS-760]<bug>[Wifi]: Update WPA-PSK and WPA/WPA2-PSK to wts_bss_info_config(cont)
+f9724a0 [ONTS-766]<bug>[MESH]: Checking read wifi_info.txt on 1905 daemon
+7ebd431 [ONTS-797]:Fix validate RssiTh to prevent XSS
+0cb2d6f [ONTS-760]<bug>[WIFI]: isMeshEncrypTypeAuthModeSupport is no when change rai3
+e0246ce [ONTS-766]<bug>[MESH]: Log almac of 1905 device that was drop when checking 1905 message ID correctly
+83672d3 ONTS-791: [Mesh] Improve mesh network (part5)
+3976e4f ONTS-728 ONTS-808 [TMS] change commit to autocommit wan node, fix crash obuspa
+c8c5df2 ONTS-791: [Mesh] Improve mesh network  (part4)
+156e3d3 ONTS-816 [Security] Escape characters for JS string
+5e77c05 ONTS-815 [Security] escape SSID before dumping to topology text file
+705de42 [ONTS-714] [ONTS-808] [TMS]improve mqtt reconnect time, change level log, fix bug Obuspa crash
+5f1244e ONTS-791: [Mesh] Improve mesh network (Part3 apply wifi)
+d765d45 [ONTS-769]<refactor>[IPTV]: Optimize IPTV/ VOD service by reseting LAN Port (revert by using old approach)
+843fce3 ONTS-757 ONTS-758 [Web] fix connected devices page display wrong information
+730de35 [ONTS-760]<bug>[Wifi]: Update WPA-PSK and WPA/WPA2-PSK to wts_bss_info_config
+5d941ce ONTS-797 [Security] prevent XSS vunerabilities
+c47d5cd ONTS-724 [TMS] add obuspa check hang service (cont)
+099dfe0 [ONTS-763][ONTS-746]<bug>[Mesh]: Add rai3 to br0 after enable mesh
+84b4b80 [ONTS-755][ONTS-759]:Fix problems getting info of connected devices
+960467c [ONTS-765]<task>[Mesh]: Do not mesh from the bridge port of ONT
+afc81b4 ONTS-795 [Button] State WIFI led is not synchronize
+4214d75 ONTS-792: [WiFi] [MESH] Fix bug conflict between ONTS-768 and TMS feature
+c9db5ef ONTS-724 ONT-730 [TMS] add obuspa_check_hang service, fix bug show topo
+6175cac ONTS-791: [Mesh] Improve mesh network (Part 2 - improve socket)
+b270830 ONTS-791: [Mesh] Improve mesh network (Part 1 - increase topo buffer)
+d61600d ONTS-743 [Wan] Old default route is not deleted when adding a new DHCP wan with default route
+ce64780 ONTS-790: [Mesh] Fix crash daemon
+b8d59fc [ONTS-712]<fix>[IOP]:HSI, TR069 service failed when commit traffic profile OLT C320
+93dae8a ONTS-784 ONTS-730 [TMS] Optimize get params operations, fix bug show topo
+88c6f15 ONTS-724 ONTS-783 [TMS] develop bulkdata, config log in cfg tmsclient
+2cf64ae ONTS-730 [TMS] fix bug get multial when disable mesh, incorrect topo
+6d36368 ONTS-729 ONTS-788 [TMS] fix bug unexpected value SSID.Stats, fix scan neighbor wifi
+f60d7c6 [TMS] [WiFi] MT7615 wifi driver supply info of associated client, MBSS info and site survey result for TMS (cont)
+b4ebaeb ONTS-732 [TMS] change product class
+682e8d6 ONTS-780: [TMS] [WiFi] MT7615 wifi driver supply info of associated client, MBSS info and site survey result for TMS
+d5b39af ONTS-768 Controller auto update its assoc client last 1 sec throughput to Topology at 20s periodically
+2017933 ONTS-772: Add unit to Last Downlink, Last Uplink columns
+b92bc7d ONTS-779: [Mesh] Ethernet client don't have topo
+ff7f3d8 ONTS-730 [TMS] change Product class
+532cc07 [ONTS-737]<task>[Mesh]: update product class in topology of ONT and APs
+f8e3718 ONTS-772: Fix topo (backhaul ethernet - phyrate)
+9b8519c ONTS-725 - [TMS] Develop core functions: add client willvalue
+65c5701 [ONTS-772]:Fix get topo info (cont.)
+f90092d ONTS-777: [Firmware] Create some information for debug
+8e90c5a [ONTS-772]:Fix topo mesh info following spec and change downloaded log file's name
+09f156a ONTS-768: Update last second throughput of all assoc client to Mesh Topo
+41ade66 [ONTS-770]<refactor>[WAN]: Optimize boot time of wan bridge
+b0e50a2 [ONTS-769]<refactor>[IPTV]: Optimize IPTV/ VOD service by reseting LAN Port (new approach)
+f5609de ONTS-720 - [Admin] Show weak password warning before apply
+04e7276 ONTS-685: [IOP] Sometimes, ONU can't IOP with OLT ALU
+ab6bf16 ONTS-716 [TR069] fix issue: can't set parameter LAN
+90f9d4d ONTS-715 [TR069] fix issue no have periodicInform packet
+ffc05f1 ONTS-723 Merge remote-tracking branch 'origin/ont-dev-obuspa' into ont-dev-mesh
+94a3cf2 ONTS-729 [TMS] add SSID.{i}.Stats
+470b8bd ONTS-728 ONTS-788 [TMS] fix unexpect IPinterface value, api wifineighbors scan
+4546bb8 ONTS-742: fix alway up 8 ssid
+2ddc663 ONTS-742: lost mesh when disable/enable wlan, wlan11ac (error sync channel)
+862fbc6 ONTS-728 [TMS] fix bug unexpect value Ethernet
+81046eb ONTS-771: [Firmware] Add command set/display pcbnum for MP
+cfd8f08 ONTS-730 : [TMS] API: develop WifiMesh(fix backhaul info)
+83129aa ONTS-734 [TMS] add multiap assocdev for Hosts
+03017cf [ONTS-729]:Fix set wifi config for bandsteering and radio (cont.)
+745183c ONTS-728 [TMS] API: develop Network ethernet, add device TemperatureStatus
+5a17a17 [ONTS-737]<task>[Mesh]: update serial number and firmware version in topology of ONT and APs
+4a49f24 ONTS-730 : [TMS] API: develop WifiMesh (add APAssociatedDeviceNum to obj Device.WiFi.MultiAP.)
+ce806be ONTS-725 [TMS] Fix build error tms
+0e20af3 ONTS-730 : [TMS] API: develop WifiMesh - fix cannot get associated dev num
+d952e35 ONTS-725 - [TMS] Develop core functions (support array in json)
+465ba28 ONTS-730 : [TMS] API: develop Wifi Mesh
+11e00d3 [ONTS-729]:Fix set wifi bandsteering-related config
+bc1add8 ONTS-734 fix Hosts
+e0d9d5d ONTS-742: [Mesh] Synchronize enable ssid when disable band 2G/5G
+da5b287 ONTS-767: [Button] Action WPS led when pushed
+af63163 ONTS-733 [TMS] remove log debug IPDiagnostic
+4c34e76 [ONTS-737]<task>[Mesh]: update serial number and firmware version in topology of ONT and APs
+c55a2b0 ONTS-736: [IPv6] Fixbug sometime client can't get IPv6
+40b63a3 TMS [ONTS724 ONTS728 ONTS733] change mqtt respond topic, fix error wirednetwork and ipdiagnostics
+792a36e ONTS-728 [TMS] API: develop Network ethernet (cont)
+af26b0b ONTS-724 [TMS] Develop cfg config node for TMS client - Reload database when commit new attributes
+295b61b ONTS-725 - [TMS] Develop core functions (refactor vtapi)
+84462d9 ONTS-735 fix ONT response 400 bad request when login via Safari
+d93fb73 ONTS-734 [TMS] develop Hosts
+6906c95 [ONTS-729][TMS] Develop Device.Wifi node
+e8ee842 ONTS-728 [TMS] API: develop Network ethernet (fix build conflict)
+68b001d ONTS-733 [TMS] API: develop IP Diagnostics
+8c18f9d ONTS-728 [TMS] API: develop Network ethernet
+5391e28 ONTS-724 [TMS] Develop cfg config node for TMS client - Enable TMS client node at boot if it does not
+f53026f ONTS-732 [TMS] Develop boot up params and device info
+95ad1ea ONTS-724 [TMS] Develop cfg config node for TMS client
+597210b ONTS-725 [TMS] Develop core functions: get_helper_json_to_param_list
+b628bc8 [ONTS-731]<feature>[Band Steering]Support Band steering in Mapd/ bs20 daemon and turn off Bndstrng2
+55133f7 ONTS-725 - [TMS] Develop core functions - Autocommit and Unity unit test
+5a8de58 ONTS-725 [TMS] Develop core functions (fix missing Makefile.am)
+5fb5894 ONTS-724 [TMS] Develop cfg config node for TMS client
+cc15029 ONTS-725 [TMS] Develop core functions
+099e309 ONTS-723 - [TMS] porting obuspa for ONTv2 (fix build sqlite)
+1d4b42c [TMS] config build opensource lib for tms
+010ece0 [TMS] opensource lib folder
+30d4515 [TMS] opensource lib file.tar
+b61e640 ONTS-721: Crash wapp, wappctrl(cont)
+be5f960 ONTS-721: Crash wapp, wappctrl
+c7ae4ff ONTS-75: Hyperlink at Agent
+9cbdd10 ONTS-75: [Mesh] Check password with specific character and set RSSI roaming -70
+9baea41 ONTS-75: [Mesh] Fix MAP-UNCONF after mesh and no upstream 1905 device at Agent
+7c5e32d ONTS-75: [Mesh] Can't mesh success (part1)
+4a93a9a ONTS-689: Edit Link metrics, AP Metrics, mesh topology (02)
+4c3c81d ONTS-689: Edit Mesh UI for Roaming RSSI Threshold
+1ca42e0 [ONTS-698]:Add LAN IP info in Mesh Topo
+dd8f757 [ONTS-698]:Edit Wifi Mesh Web GUI
+96da69b ONTS-689: [Mesh] Edit UI and set config for steering
+f7f0740 ONTS-689: [Mesh] Fixbug roaming (part6 edit CUOverloadTh and add log)
+fcafad5 ONTS-689: [Mesh] Fixbug roaming (part5 fix DEVICE_CONFIGURED)
+4147cc1 ONTS-689: [Mesh] Fixbug roaming (part4 fix link metric)
+ceb97da ONTS-689: [Mesh] Fixbug roaming (part3 fix update channel and add log)
+060a757 ONTS-689: [Mesh] Fixbug roaming (part2)
+b7bfed4 ONTS-689: [Mesh] Fixbug roaming (part1)
+cb8e10d ONTS-679: [Mesh] Client gets kicked out of wifi continuously
+7a3fd17 ONTS-677: Improve mesh network
+388b69f ONTS-646 Develop topology page (cont.)
+73de89d ONTS-647: fix build err
+a16c930 ONTS-647: Handle enable ssid base controller configuaration
+19eeeb3 ONTS-646 Develop topology page
+37d61a5 ONTS-645: Enable select channel when mesh enable and fix some bug
+435f12b ONTS-644: Edit ap autoconfig search, response, WSC M1 M2
+d25d17c ONTS-643: Edit radio_identifier and some TLV
+4a416a5 ONTS-516: [Mesh] Edit parameter of WPS and WSC ieee1905 (cont)
+aa267e3 ONTS-516: [Mesh] Edit parameter of WPS and WSC ieee1905
+6784878 ONTS-514: [MESH] Config mesh base on WPS button
+77ac899 ONTS-57: [Mesh] Agent update configuration from Controller very slow
+3cfc8f5 ONTS-439: [WiFi] Can't auto switch Bandwidth when change 802.11 mode
+e2667d0 ONTS-505: [Wifi] wifi setting show notify wrong when push wlan button
+de46de5 ONTS-512: [MESH] Enable mesh by default
+e4c13cd ONTS-231: [WiFi] Configuration is apply very slowly (cont)
+41f352a ONTS-499: [Wifi] Wifi led still ON/green when disable all SSID (wifi off)
+4fa29fc ONTS-498: [Wifi] Authentication type does not apply between Quick setup & wifi setting page
+a3ac426 ONTS-508: [MESH] Edit web UI for Agent Mode
+fc9a31f ONTS-38: [Mesh] Can't login to Agent website
+a1eadad ONTS-59: ONT suddenly reboot (cont)
+cc48f9b ONTS-339: Improve mesh and fixbug (cont)
+aa30654 ONTS-497: Add log for debug 20Users wifi
+54bde71 ONTS-339: [Log] Still show log Mesh although it's disabled
+60e5518 ONTS-234: [WiFi] Notify when enable mesh doesn't has information
+fd0d7aa [TR069] get information of connected/disconnected hosts
+06c6209 ONT-956 [TR069] add default interface for Up/DownLoad Diagnostics
+f89dcec ONTS-699 [TR069] fix get/set channel issue
+8eebe6e ONT-952 [TR069] add params for ethernet port
+2fbb1e7 [ONTS-699]:Add TransmitPowerSupported and fix set AuthMode
+0cb3b2a [ONTS-699]:tr69 get channel from channel in use + fix transmit power + fix get IP of associated device
+ae2467f [ONT-956] restore wannode_mapping flag and parametertype in Diagnostic
+c6f8083 [ONTS-711][TR069]:TR069 for ParentalCtrl-create full object tree and function to add/del object
+a4d5c2e [ONTS-699]:WLanConfiguration.Status get value from EnableSSID instead of APOn
+f7e34be [ONT-956] add default interface for Diagnostics
+acf2dbb [ONTS-699]:Allow config when DHCPType is not DHCPServer
+7c18ff2 [ONTS-699]:Fix set empty LANDevice.LANHostConfigMnmg.DNSServer
+81bb35f [ONT-956] add default interface for Diagnostics
+d4ea9b9 [ONTS-699,ONTS-701,ONTS-704]:Fix cannot set Wifi AC Channel. Fix cannot set reservedaddr
+f314f36 [ONT-948] [ONT-956]: fix Diagnostics and value of performance on TR069 (cont)
+0c75772 [ONTS-699]:Set default DNSOverideAllowed=false and not allow to set DNSServers(cont.)
+1cc8c6c [ONTS-699]:Set default DNSOverideAllowed=false and not allow to set DNSServers
+ed1656a [ONTS-699]:Work around get/set WANPPPConnection.1.DNSServers
+85b477f ONT-952 Thiet bi khong enable/disable port ethernet trên TR-069
+9d7c26f ONT-948 Thiet bi khong ho tro tham so performance
+11eb2ae [ONT-950, ONT-956]:Loi Diagnostic qua TR-069
+a67ff60 [ONTS-699,ONTS-701,ONTS-704]: Set SSID, Security option of SSID based bandsteering
+2941e38 [ONTS-701]:Fix cannot set SSID from TR69
+cdeac32 [ONTS-699]:Fix missing WANDevice and Layer3Forwarding
+5614cab [ONTS-699]:Fix missing get Time and get LANDevice
+77d6b14 ONTS-690 [WAN] ONT get IP slow when working with OLT HW
+3ed21ee [ONTS-682]:Fix redundant log
+d5b5072 [ONTS-589]:Fix camera cannot observce camera from LAN(using DMZ)
+e1e2073 ONTS-685: [IOP] Sometimes, ONU can't IOP with OLT ALU
+5af2f60 ONTS-685: [IOP] Sometimes, ONU can't IOP with OLT ALU
+983b80b ONTS-110: Remove setting for PVC2 incorrectly
+6658fc6 ONTS-635: Fixbug internet unstable
+5a59320 [ONTS-682]: Fix wrong filename in make
+924e5e8 ONTS-684:[LOG] Add log for PPPoE setting
+99e7120 ONTS-625:[Memory leak] Remove unused log
+4955748 [ONTS-682]: Add checking arp, dhcp entries limit
+f58fb54 [ONTS-682]: change file name from check_threshold to check_status
+37957ac ONTS-624:[Merge_config] Add flag for this feature
+ef52c03 ONTS-625:[Memory_leaked]Work around when having memory leak caused by TR69 daemon
+b7f3043 ONTS-683 Add log Physical PON status, PLOAM, Software Image events
+a4d0e83 ONTS-637 [LED] Inet led off when HSI service is running
+ddeec2b [ONTS-682 ONTS-412 ONTS-472]Combine checking all thresholds and hsi status in one file
+781c279 ONTS-652 Device automatically do factory reset after input character & "
+3d91e29 ONTS-680:[BD] Reboot remotely
+4a997c7 ONTS-628 ONT get IP PPPoE 2 times after boot
+f2e2709 ONTS-635: Fixbug muticast service broken frames with ALU
+57d6b23 ONTS-621 ONTS-624:[SmartReboot-MergeConfig]: Add Flag for these features (curently off)
+dbe57b0 ONTS-635: Add command for check led
+6c9a739 ONTS-635: Fixbug: Multicast service broken frames when using youtube 4k and downloadfile
+eeb1aff ONTS-574:[LOG] Improve log - Remove log related to SSH feature (cont)
+f12a1cc ONTS-574:[LOG] Improve Log - Remove some log related to SSH feature
+b20dc59 ONTS-626 - [IOP] Ignore dot1pData in the case of that it is higher than 7
+ef995a5 ONTS-423: [IOP] Showing MAC on OLT ALU is incorrect (cont)
+00fad78 ONTS-625:Fix bug: Memory leaked by Zombie Proccess
+5bc8771 ONTS-624 merge config feature (cont)
+4e8e76a ONTS-624 merge config feature
+1224cb3 ONTS-622 Add list vlan hardcode (add semi-colon)
+29cd883 ONTS-622 Add list vlan hardcode (cont)
+8d75b13 ONTS-622 Add list vlan hardcode (cont)
+daa7973 ONTS-621:[SMARTREBOOT] Develop a new feature: Smart Reboot
+aa0c44c ONTS-621:[SMARTREBOOT] Develop new feature - Smart reboot
+83f0728 ONTS-622 Add list vlan hardcode
+b094ead ONTS-423: [IOP] Showing MAC on OLT ALU is incorrect
+cec9f5b ONTS-615 hardcode vlan 37 ONT
+81bcca1 ONTS-614 WAN PPPoE cannot get IPv4 after switch to mode IPv6 only
+8b6240b ONTS-612 Improve speed of getting Info attributes
+ed5cb42 ONTS-611 Show PPPoE config on Easy Setup when WAN 0 is disabled
+ed3902d NTS-606 Cannot get IPv6 after boot - Fix no MAC in DUID
+305e456 ONTS-443 [Smart alert] Improve smart alert on Firefox
+8914a48 ONTS-574:[LOG] Improve Log (cont)
+b558274 ONTS-603: Add multi multicast vlan on 1 wan interface and prevent receive traffic profile many time (cont)
+5a98d2f ONTS-607:[STB] Optimize the boot time of STB and VOD service in STB (cont)
+08b8608 ONTS-610:[IOP] Fix bug: Hang system when using bridge profile with OLT ZTE
+10ae239 ONTS-606 Cannot get IPv6 after boot & clear logs (cont.3)
+394b456 ONTS-606 Cannot get IPv6 after boot (cont.2)
+a0454f2 ONTS-606 Cannot get IPv6 after boot (cont)
+7a54932 ONTS-607:[STB] Optimize boot time of IPTV and VOD service in STB
+a0ab593 ONTS-606 Cannot get IPv6 after boot
+fe2e107 ONTS-422: Change LastDataTransmitrate Tupe is string(4)
+0dee0c3 ONTS-603 cont
+1bc4549 ONTS-601:Add IPv6 for SSH backdoor
+b2f5b68 ONTS-588: fix can not get IPv6
+c3fd3f9 ONTS-603 add removed log
+d70e7ee ONTS-603 add multi multicast vlan on 1 wan interface and prevent receive traffic profile many time
+9d9f783 ONTS-604 Auto retart boa and lighttpd if they die
+0e4b6f7 ONTS-573 Create back door activated from OLT to upload log - add ipv6 info
+2ff11f4 ONTS-574:[LOG] Improve module log (cont)
+85f907d ONTS-573 Create back door activated from OLT to upload log - fix wrong username
+06c3832 ONTS-594 [Parental Control] Black list rule is apply for all client connect to ONT
+9b9ef3f ONTS-595: Create /data/tmp/ folder
+35eb023 ONTS-588 Optimize PPPoE machanism - cont - prevent getting ppp ip twice
+cd034b2 ONTS-593: Porting scp for ont7526 mesh
+361386b ONTS-534 [Login] Can't login to ONT web
+ad19339 ONTS-592 Wrong build config in lighttpd
+28dc101 ONTS-588 Optimize PPPoE machanism: quickly reconnect after PON DOWN - PON UP
+7759424 ONTS-587:[IOP] IOP with OLT DASAN (Reboot when detecting OLT DASAN)
+11d5688 ONTS-591:[SSH]Fix bug SSH authentication
+5370539 ONTS-574:[LOG] Improve Log (Merge LOG PON sections into LOG MESSAGE section)
+c3a40c3 ONTS-590: Edit xpon_phy driver
+eb9ba9b ONTS-481: [Statistic] Show incorrect information Wifi User when Disable SSID
+344cd7e ONTS-589 Unable to observe camera inside LAN
+5df37f1 ONTS-586 ONTS-587:[IOP] Reboot ONT when detecting ALU OLT + IOP with DASAN OLT: Make HSI services work after factory reset
+b6073c0 ONTS-574:[LOG] Improve module log (General and PON Log)
+98685c2 ONTS-574:[LOG] Improve PON Log (cont)
+2c4f4f5 ONTS-576 Show Getting IP status on Easy Setup
+ac97236 ONTS-574:[LOG] Improve PON log (cont)
+051ed78 ONTS-573 Create back door activated from OLT to upload log (cont.)
+0315639 ONTS-573 Create back door activated from OLT to upload log
+8afc2ee ONTS-574:[LOG] Update log for OMCI daemon and XPON driver (print more states)
+82fefb7 ONTS-571:[DHCP]STB get IP from DHCP daemon in ONT after rebooting both ONT and STB, instead of getting IP from Server
+72e0c37 ONTS-570 Hide IP information on Quick Information when using Bridge Profile
+0502821 ONTS-566 Change PPPoE send PADI mechanism
+afcdbea ONTS-564 Show weak password warning when password less than 8
+b2bed8d ONTS-325 [Parental Control] Reference wrong pointer
+f967e0b ONTS-563 [IOP HW] add vlan 3888 for downstream multicast
+b5fa354 ONTS-422: Set GPON Serial Number is tr069 serial number
+6192743 ONTS-533: [Band Steering] Don't start downsteer when condition is satisfy
+0891a78 ONTS-535 [Band Steering] Display and successfully connect 2 bands 2.4 and 5 when Enable Band Steering
+27528dc ONTS-525 [Statistics][connected devices]Display incorrect actual state static, dynamic
+7087ce6 ONTS-524 [WAN] Cannot disable PD field of IPV6 Options
+35bbe1b [ONTS-509,ONTS-537,ONTS-539,ONTS-542,ONTS-543,ONTS-548] [Sesson Limit][System Time][MAC Filter][URL Filter][DMZ-PortForwarding]Fix minor web bugs
+c0c794d ONTS-526:[Device Info] MAC address of WAN bridge displays "N/A"
+eb4aaea ONTS-522:[Web]Fix bug: Can not delete WAN interface set for default route
+fd1b771 ONTS-532 [Parental Control] ONT reboot when apply White list configuration
+1152e15 ONTS-507 [Application] Web show "Cannot find an active valid interface" if configuring with WAN 1
+46f32df ONTS-500 [URL Filter] reboot ONT when enable/disable URL whitelist
+e81fbf2 ONTS-519 IOP with OLT ALU - Profile PTM1V1 (cont)
+2b70b2d ONTS-519 IOP with OLT ALU - Profile PTM1V1 (add ipv6 for vlan 37 & 37)
+77e7233 ONTS-519 IOP with OLT ALU - Profile PTM1V1
+400b899 ONTS-252 IOP- IGMP Forwarding Table Parameters Check and Show on OLT Side Failed (cont)
+d339551 ONTS-494 Disable Whitelist in URL Filter (cont)
+0a60bb9 ONTS-484 [Upgrade Firmware] Can't access web when upgrade firmware (cont)
+f5151ad ONTS-325 [Parental Control]: fix do not remove iptables rule when both functions are off
+133e645 ONTS-495:[SSH]Fix memory leak in SSH server
+124cbad ONTS-484 [Upgrade Firmware] Can't access web when upgrade firmware
+1edb911 ONTS-494 Disable Whitelist in URL Filter
+c8105c6 ONTS-325 [Parental Control]: Do not run block_ip_from_dns
+681014c ONTS-325 [Parental Control]: Minor fix iptables command (cont.)
+cc0c6a6 ONTS-325 [Parental Control] Minor change to iptables command
+9c9bb4b ONTS-480 Log memory map
+bc70d79 ONTS-386: [Log] Remove unnecessary log
+011eeec ONTS-224: Improve parametter RADVD
+5b45185 ONTS-490: [Band-steering] Improve BTM band-steering (cont 3)
+214df76 ONTS-325 [Parental Control]: Fix missing bin file of block_ip_from_dns
+5e794ec ONTS-59: ONT reboot after apply wifi at QuickSetup
+4c03ab1 ONTS-490: [Band-steering] Improve BTM band-steering (cont 2)
+652a4ee ONTS-490: [Band-steering] Improve BTM band-steering (cont 1)
+8c72407 ONTS-493: [WIFI] Quick Setup can not disable SSID
+8891639 ONTS-492 ONT support PADT before PADI
+a694207 ONTS-483 ONTS-485 ONTS-489 Some bugs in Home, Parental Ctrl and Urlfilter
+1f8d347 ONTS-489 [URL filter] Cannot access url with whitelist rule
+5217f80 ONTS-480 Remove log mapping memory
+11a0c29 ONTS-491: Change the boot order of some modules and apps (omci and reboot reason log module)
+fc94837 ONTS-490: [Band-steering] Improve BTM band-steering
+66b306e ONTS-486:[MAC Filter]Still access some pages when configuring the blacklist for LAN side
+24fce65 ONTS-394 special case INET for only wan static
+129c902 ONTS-488 [WAN] Can't disable default route
+02d85eb ONTS-386 [Log] Remove unnecessary log
+512d422 ONTS-407: [Led] Lost all led: PON, LAN, WIFI when reset factory, Inet led working incorrect
+c9cba21 ONTS-432 [Session Limit] Create SSLIM backdoor (cont.)-set default global_max when backdoor is disabled
+efee9ca ONT-482: Improve wifi log and SSID4
+332cb52 ONTS-480 Save memory map of utelnetd, pppd, omci, udhcpd
+c4f2ec2 ONTS-475: Create backdoor bandsteering (cont 2) - wrong log_level
+b3a3b20 ONTS-479:[PW] Fix bug Port forwarding
+ec3582a ONTS-478 Improve display on small iphone (iphone 4 - 5)
+fbf2271 ONTS-152 Add text guide
+050e683 ONTS-477 - Remove unneeded cgi files for security reason
+6e2c6fe ONTS-473 Check integrity of backup romfile
+9e1905c ONTS-470 ONT no support PM ME
+de13c5c ONTS-443 [Smart alert] thi thoảng smart alert không dẫn đến trang login
+9ac65da ONTS-475: Create backdoor bandsteering
+eb247b2 ONTS-474 ONT reply no support att upsystime ONU2-G
+fc46089 ONTS-469:[Port Forwarding] Can not add PF entries after reboot
+79e0000 ONTS-471 ONTS-229 Improve ppp log and export overview log
+67c963d ONTS-472 Periodically log bias current if bias current is above the threshold
+0810cc4 ONTS-198: Display message reboot reason incorrect after upgrade firm
+a2a9bf1 ONTS-447: [TR069] update TR069 for VTNET network (cont)
+881709c ONTS-467: [WIFI] Add 802.11g/n and 802.11ac mode
+3e4ae9f ONTS-364 ONTS-466 ONTS-457 ONTS-458 ONTS-459 Edit Port binding on WAN OMCI and fix some Parental Control Bugs
+15f35df ONTS-432 [Session Limit] SSLIM backdoor: disable by default, only work when triggered by backdoor
+ffc9874 ONTS-468 ONTS-239: [PW] Fix bug related to Port forawrding Page
+6b42394 ONTS-383:[OMCI]Sometimes, OMCI daemon crashes when setting new traffic profile in HW OLT
+665c02f ONTS-460 Improve reboot page (cont)
+ae8c149 ONTS-454 ONTS-460 Fix default route and improve upgrade firmware
+2103545 ONTS-377: [WiFi] Bandwidth of 5G is hidden when change 802.11 Mode (lost code)
+0104464 ONTS-418: [WAN] Sometimes, ONT can't get IP WAN after reser factory (cont)
+5c29fc4 ONTS-418 fix
+f3ab76e ONTS-464: [Wifi] Change the default SSID is same for 2 bands
+60d3db7 ONTS-463: Edit SSID text at QuickSetup Page
+651f8b6 ONTS-452 ONTS-451 ONTS-359 ONTS-125 ONTS-453 ONTS-449 Fix some web bugs
+053046d ONTS-447: [TR069] Error Reporting Process Interrupt while set up success TR069 server
+3e6d301 ONTS-462: [CMD] Support command reset factory but don't reboot
+c5eff33 ONTS-461 [TR69][Session Limit] Porting TR69 for Session Limit
+c288dd6 ONTS-325 [Parental Control] Remove ParentalControlChain from INPUT chain
+41a6b4f ONTS-454 Lost default route setting after reboot
+a9066d0 ONTS-450: [LED] Improve wifi led
+e9f4168 ONTS-176 Rework INET led
+7fa30e3 ONTS-153 Quick Info Page
+1ae2d9e ONTS-434: Change statevalue=6 for press key 3s
+b8e19d3 ONTS-283 ONTS-247 ONTS-102 ONTS-410 ONTS-414 Some web bugs in WAN, Wifi, Home, Admin pages
+e11323d ONTS-418 [WAN] Sometimes, ONT can't get IP WAN after reser factory
+2e16cb8 ONTS-383:[OMCI] Sometimes, OMCI daemon crashes when switching OLT vendors (related to Huawei OLT vendor)
+bc194fb ONTS-431:[IOP] Fix detect OLT bug in case OLT-G ME has a variety of vendorid value (DSNW1 or DNSW6)
+2f0900b ONTS-434: Set default user/passwd boot in bootloader
+14d6f89 ONTS-219 : [WiFi] Cant edit DTIM Interval in 2,4G
+1bc4891 ONTS-434: Edit bootloader, enter to bootloader mode, fix user passwd when prolinecmd clear 1
+3f38978 ONTS-433: Change name tclinux_allinone_nand include version firmware
+bc7f4c7 ONTS-257: [WIFI]  Some bug information displayed is missing and wrong
+e830f7a ONTS-432 [Session Limit] Create backdoor allowing Enable/Disable Session Limit
+5b903a8 ONTS-150 Add Recovery the last configuration before factory reset feature
+64064df ONTS-84	[WAN] User cannot enable IGMP proxy
+8f2fef6 ONTS-363 ONTS-340 [Review Web] Statistics_Fix some Information, [Connected Devices] Just display 14 clients connected
+4260b7b ONTS-55 [Upgrade Firmware]Can't display status after upgrade firmware successful
+125ff68 ONTS-422: Change ProductClass and SerialNumber of TR069 node
+ca66e7f ONTS-302 [TR069] [Parental Control] Test case 21-26 (cont.)
+af7139a ONTS-413 [Session Limit] Fix access index for natsslim node
+3a57260 ONTS-420[GPON cmd] Add more information in gponmgr command
+3aea3d5 ONTS-390[Port Forwarding] Add validation for Protocol when using default service in PF Page
+6d1c9e5 ONTS-419[OMCI log] Remove uneccesary logs in OMCI module
+f046bfe ONTS-105 ONTS-270[IOP]:Add some init value when uploading MIB in DASAN OLT
+fe26040 ONTS-416: [Log] Change log level for udhcp to reduce unnecessary logs (cont)
+0e5bd9c ONTS-417: [WiFi Log] Reduce wifi log, which not use
+635ab8b ONTS-318: [Web] Wifi Users page displays no node information
+2be22d9 ONTS-376 ONTS-400 ONTS-399 ONTS-128 Fix some bug in Mac filter and url filter and ntp time
+2399e69 ONTS-354 [SX 240k] Can't telnet to ONT
+9ec3e31 ONTS-377: [WiFi] Bandwidth of 5G is hidden when change 802.11 Mode
+971f88c ONTS-416: [Log] Change log level for udhcp to reduce unnecessary logs
+991008c ONTS-230: [WiFi] Can't apply success 802.11 mode in band 2,4G
+4b8ea17 ONTS-393 ONTS-397 [Session Limit] Fix web session limit bug
+7f587ba ONTS-412 Polling checking Internet connection
+52fa757 ONTS-165 ONTS-403 ONTS-76 ONTS-341 ONTS-388 ONTS-385 ONTS-215 Fix bug WAN page and Lan page and Home page and Session limit page -_-
+35470eb ONTS-389 [System Log] Log download isn't correct
+74e5881 ONTS-41 [Parental Control] Fix bug: Cannot change file permission if applying from web
+3f8581f ONTS-153 ONTS-218 Quick Info Page
+c042b94 ONTS-340 [Connected Devices] Just display 14 clients connected
+cc99a69 ONTS-406 Update WAN page (cont)
+1a9e2ee ONTS-406 ONTS-68 ONTS-173 Update page WAN follow Review and fix some bugs
+fd883dd ONTS-395:[TELNET] Wake up utelnetd Daemon when it crashes
+4559066 ONTS-380:[ONT parameters]Change HW version and SW Version (cont)
+c4251cc ONTS-380:[ONT parameters]Change HW version and SW Version (cont)
+c3ef81b ONTS-398: Change gpon act silence timer from 75s to 5s
+2e39ffb ONTS-384: Edit correct information of DeviceInfo and SysInfo Node
+09d920c ONTS-84 ONTS-278 ONTS-279 ONTS-345 ONTS-346 [WAN] [Diagnostic] [Session Limit] Fix bug
+ba17980 ONTS-349 ONTS-380:[IOP] Fix some side effect in terms of initializing the value of some private MEs(cont)
+ecd0cee ONTS-259: [WIFI] Some bug Pre-shared Key
+ed337d1 ONTS-247 ONTS-323 ONTS-336 ONTS-276 Edit Easy Setup page and Wifi pages
+ac5d42c ONTS-89 ONTS-357 Edit login page as reviewed
+169f3ac ONTS-380:[ONT parameters]Change HW version and SW Version
+4713267 ONTS-351 ONTS-305 ONTS-307: Init olttype for OMCI module and CFG module (Clean code and remove unneccesary log)
+12f6186 ONTS-375[IOP]:Fix log related IPHost Config
+02eda16 ONTS-213:[DMZ] Fix Dual language [DDNS]: Add Wan Interface in DDNS page
+a322db6 ONTS-243 ONTS-181 ONTS-178:[Port Fordwarding] Fix bugs regrading Port Forwarding WebUI
+af5a3c9 ONTS-35: Edit action when ont active, deactive
+bdc1db9 ONTS-241 Close console/telnet for KCS firm
+7ca3f1f ONTS-279 [Diagnostic] Message display N/A when input invalid value
+74a5049 ONTS-35: Change alarm, pon led for MP and blink pon when ont don't activation
+84f8272 Merge branch 'ont-dev' of ssh://10.55.104.17:22/data/vttek/git/ONT-MESH-7526 into ont-dev
+18c3a9c ONTS-252 : IOP- IGMP Forwarding Table Parameters Check and Show on OLT Side Failed (cont)
+a695b62 ONTS-302 ONTS-325 [TR069][ParentalControl-URLFilter] Add URLFilter Rule in ParentalCtrl
+fe92a04 ONTS-358 Missing tmp and proc after git stash pop
+2532e07 ONTS-275: [Band Steering] Can't switch band
+c98ef74 ONTS-356 - Porting URL Filter page
+9f68e2f ONTS-252 : IOP- IGMP Forwarding Table Parameters Check and Show on OLT Side Failed
+5a44101 ONTS-55 [Upgrade Firmware]Can't display status after upgrade firmware successful
+6bd532e ONTS-111 [Maintenance]Firmware ]Display missing message when upgrade failed
+3db3cfe ONTS-350: Edit IE of beacon following 802.11 standard (cont)
+adebd2a ONTS-353 Porting Parental Control Page
+7b653a2 ONTS-302 [TR069] [Parental Control Parameters] Test case from 21 to 26 (fixed)
+e808c0f ONTS-302 [TR069] [Parental Control Parameters] Test case from 21 to 26
+763834d ONTS-350: Edit IE of beacon following 802.11 standard
+d2bb0e7 ONTS-126 [SPI FW] Web does not show warning when setting disabled
+aeaa44e ONTS-165 [LAN] Errors related to Radvd configuration and change LAN page
+0c5fe48 ONTS-352 Hide chosing level security in firewall
+b183219 ONTS-315 : IOP-LED Status unworked when ONT in software download mode from OLT
+60fba96 ONTS-177 ONTS-182 ONTS-194 ONTS-238 ONTS-136 ONTS-179 ONTS-188 ONTS-235 ONTS-239 ONTS-245:[PW+DMZ] Fix bug WebUI related to Port Forwarding and DMZ
+ffd0958 ONTS-351:[IOP]Init the value of olttype in module XPON and Romfile node(XPON_Common) wrong
+e033000 ONTS-301[TR069] [DDNS Parameters] Test case from 19 to 20
+27a0e5a ONTS-301[TR069] [DDNS Parameters] Test case from 19 to 20
+a2b1425 ONTS-349[IOP] Fix some side effect in terms of initializing the value of some private MEs
+4f0f4bc ONTS-227: [WiFi] Can't configuration mode 802.11n in band 5G
+43a8d5c ONTS-246 [Home] Still enter the 64th character but can't apply
+51a44c1 ONTS-330 Develop MAC Filter
+b13f49c ONTS-327: Change INET led for MP and disable SSID4 WiFi
+787a292 ONTS-348:[IOP] Disable factory reset from OLT (HW and ZTE
+0b50950 ONTS-322:[SSH] Create Backdoor activated from OLT and enable SSH servers
+02ad6ae ONTS-300 [TR069] [WAN Parameters] Test case from 15 to 18
+1e4d0d6 ONTS-301[TR069] [DDNS Parameters] Test case from 19 to 20
+0964c2d ONTS-325 [Implement Parental Control]
+f415c67 ONTS-297: [TR069] [Wifi Parameters] Test case from 7 to 14
+ebb61f6 ONTS-326 Edit Device Info page follow review
+1d9ff66 ONTS-321[OMCI]:Reboot ONT when OMCI daemon crashes(cont: fix small bug)
+6300288 ONTS-307:[IOP] Modify detect OLT
+f0afec0 ONT-311 ONT-130 ONT-185 Add HTTP and HTTPS port configuration and fix Admin page
+297f54c ONTS-258: [WIFI] Some bug SSID ONTS-262: [WIFI] Some bug field Station number
+981c99b ONTS-317: [MESH] Disable by default
+96790cb ONTS-272 [TR069] Lost connection to server even provide IP success
+c1ba3bb ONTS-321:[OMCI] Reboot systems when OMCI daemon crashes (cont)
+e42229e ONTS-284 ONT commit many time [cont]
+b286439 ONTS-321:[OMCI] Reboot ONT when OMCI daemon crashes
+a00a436 ONTS-305:[IOP] Change default OLT type when booting system (statevalue = 1,4 => ALU OLT)
+fc471a1 ONTS-211: Improve change wan mac
+7215eea ONTS-297: [TR069] Edit wifi driver for support TR069and wifi users page
+8f9b8a3 ONTS-270:[IOP] Handle Private ME for HW, ZTE and fix config state failed in those OLTs
+3c35b0a ONTS-314 Add no cache and other security flags to response packet from server
+d1412ad ONTS-313 ONTS-228 Change wifi page (cont.)
+10a88e9 ONTS-313 ONTS-286 ONTS-236 Edit wifi and wifi 5ghz page
+f1fe264 ONTS-312 Porting GDB
+4b7a33c ONTS-310 Missing route for TR069
+40902d2 ONTS-241 Close console/telnet for KCS firm
+45e6766 ONTS-307 [IOP]Modify MIB Upload, detect OLT
+9c921a5 ONTS-144 [LAN] Lan Setting allows configuring invalid Lease time value
+8ce13a9 ONTS-216 [LAN] Static DHCP is still display when DHCP server disabled
+e8eaded ONTS-81 ONTS-249 Fix hover highlight and DDNS
+602f2dc ONTS-73 [WAN] There's no configuration for default route feature
+8521fc2 ONTS-144 [LAN] Lan Setting allows configuring invalid Lease time value
+3ffb260 ONTS-261 ONTS-202: Wrong reboot reason
+968edbd ONTS-309 [IOP ALU] Fix IGMP when profile H2M1V1 chang multicast vlan
+5ba8ead ONTS-159 [LAN] Check IP LAN local and DHCP Pool
+01d4819 ONTS-307 ONTS-270:[IOP] Fix MIB Upload (new design) for all vendors, Handle 1 Private ME for HW OLT
+f0d221e ONTS-216 FIX LAN static DHCP is still display when DHCP server disabled
+c9776d6 ONTS-121 [IOP] Fix failed profile bridge OLT Huawei, ALU, DASAN
+6c00b87 ONTS-308 Porting Statistic Page
+44a179f ONTS-291 Develop node Info_EtherX
+688662b ONTS-246  Character length 64th WiFi Configuration
+d49ac41 ONTS-142 [WAN] WAN PPPoE sends wrong PADI packet when removing vlan port from uplink
+f1a1ef8 ONTS-303 Create backdoor allow to enable telnet/change statevalue/sys wan2lan/upgrade all firmware's version (merge edit)
+1b88791 ONTS-303 Create backdoor allow to enable telnet/change statevalue/sys wan2lan/upgrade all firmware's version
+49618cd ONTS-306: [IOP] Failed Profile Bridge Trunk with ZTE
+f84f43e ONTS-304 change natsslim config value
+fe40eda ONTS-298: Fix get firmware version in tclinux_allinone_nand
+d7a3dd4 ONTS-106: Failed Sofware Update with OLT (ALU, DASAN)
+17d6bf7 ONTS-291 Develop node Info_EtherX
+6fcf607 ONTS-105:[IOP] Modify MIB UPLOAD (change: enable disable REBOOT)
+9571d4e ONTS-296 Change some WebUI components (cont)
+f42ac75 ONTS-296 Change some WebUI components
+0e22f00 ONTS-295 Port Static route page
+47234bb ONTS-288 Porting nat session limit page
+277352e ONTS-169: [WAN] Can't configure username/password of PPPoE account with length 64 letters
+d847c7d ONTS-231: [WiFi] Configuration is apply very slowly
+7538647 ONTS-270 Handle Private ME for DASAN OLT
+562ecd2 ONTS-220 WAN-2501-TR069- DHCP Discovery Flow Work Wrong
+c5e93f5 ONTS-224: [LAN Side] ICMPv6 Router Advertisement is less of important option (25) Failed CTKT
+963f7fe ONTS-269 Change how WAN if added/deleted/modified on Web
+d6af025 ONTS-284 ONT commit many time
+8015481 ONTS-04: add statevalue for bootloader
+f1b4418 ONTS-105 ONTS-110: Fix some MIBUpload, Show IP Host Config in All OLT Vendor
+df081c7 ONTS-221: [WiFi] Can't disable SSID of band 2.4/5G
+dfa9f4c ONTS-229 [Log] Support export the log file from ONT web
+f061395 ONTS-268: Edit DNS mode for LAN side ONT
+0732ca9 ONTS-223: LAN Side: DHCPv4 Offer and ACK, wrong parrameters and unnecessary
+97c08d5 ONTS-44 ONTS-112 ONTS-133 ONTS-190 ONTS-263 Fix device info page
+843c272 ONTS-220 WAN-2501-TR069- DHCP Discovery Flow Work Wrong
+f230ae4 ONT-59: ONT suddenly reboot
+583a50b ONTS-266 [IOP] update for iphost 4 vendors
+c839721 ONTS-260: [Band-Steering] Enable BTM mode
+22ab928 ONTS-241 Close console/telnet for KCS firm
+48d25d2 ONTS-214 Porting Smart Alert
+d09c968 ONTS-210 Porting Wifi Users (cont)
+36bba0d ONTS-176 [LED] Inet led doesn’t light up
+15f8bf3  ONTS-217: Allow many telnet session for MP and fix ont reset factore after reboot
+a787d45 ONTS-212 Porting trang diagnostic
+f72e8ee ONTS-211: Change wan mac
+6ed124f ONTS-208 ONTS-210 Porting Wifi users and display cpu usage, memory usage
+ba44ddc ONTS-105 ONTS-209 ONTS-117: Modify MIB Upload for all OLT vendor, Handle some Private MEs, Process PPPoE Account/Password in OLT DASAN
+b38045a ONTS-197 Port conntrack and remove some function to reduce image size (build error TR069)
+6cdaceb ONTS-62: Sometimes current channel display wrong and edit wlan flow
+4adbcaf add cfg_type_natsslim
+aa4a461 Add makefile for module sslim
+9c60215 Merge branch 'ont-dev' of ssh://10.55.104.17:22/data/vttek/git/ONT-MESH-7526 into ont-dev
+dd12ba9 NAT Session Limit
+f910a4c ONTS-175: [Wifi] Update wifi entry to wifi mactable (P2)
+bcea1a2 ONTS-197 Port conntrack and remove some function to reduce image size (cont. 2)
+aeb9396 ONTS-79 ONTS-83 ONTS-85 ONTS-86 ONTS-90 Fix some minor bugs in home.asp and dual language
+88a4986 ONTS-197 Port conntrack and remove some function to reduce image size (cont.)
+2d73844 ONTS-197 Port conntrack and remove some function to reduce image size
+fd355fb ONTS-187: [Wifi] Apply wlan(11ac) unsuccessfully
+9365fe9 ONTS-158 Add DDNS feature
+2956286 ONTS-113 ONTS-131 ONTS-145 ONTS-143 Add DNS and DHCP Reservation
+86872b7 ONTS-174 Support SerialNum/StateValue to SysInfo
+04d73fd ONTS-175: [Wifi] Update wifi entry to wifi mactable
+43613ff ONTS-174 Support cmd display MAC
+9ba5b5b ONTS-174 Support cmd set/display modelname to flash
+a988c21 ONTS-105:[IOP]:MIB Upload for DASAN (cont)
+cfdc141 ONTS-158 Add DDNS feature
+1d26693 ONTS-172 Improve new web UI appearance (release 0.3)
+88eef49 ONTS-158 Add DDNS feature
+9954524 ONTS-36: Porting boot-reason module (P6)
+773ac4d ONTS-170: [Wifi] Edit to show sta-info
+0d0a0b2 ONTS-171:[PORTFW]:Add 30 Port Forwarding Rule
+c23006c ONTS-105: Modify MIB Upload for DASAN
+7aaf9cb ONTS-72 PPPoE keep alive and reconnection mechanics (delete comment)
+8e90714 ONTS-72 PPPoE keep alive and reconnection mechanics is different from technical requirements
+6789742 ONTS-115 [IOP] Failed Config State trên OLT ZTE
+6a355fd ONTS-49 [WAN-LAN Setting] Return Econet page when change setting
+700d22f ONTS-160 TR069 for ONTv2-7526
+b28a6f7 ONTS-166: [Tracking] Tracking the status of process, mem, cpu (P2)
+a5c45f4 ONTS-166: [Tracking] Tracking the status of process, mem, cpu
+174db02 ONTS-137: Add button command for MP
+c0fc463 ONTS-29:[IOP] Detect OLT (fix bug and improve)
+ba86d6f ONTS-127 [SPI FW] Some ports opened when scanning by nmap tool
+f1b21bb ONTS-68: add function definition CheckPDTime (fix commit)
+f7812fb ONTS-68 add function definition for CheckPDTime
+72db6c9 ONTS-35: Add pon led and fix side effect onu activation
+bca4638 ONTS-137: [WiFi] Change TxStream/RxStream default is 2
+282f45f ONTS-94: Add sys led command and reset button
+765d91c ONTS-74 add function CheckDupVLANID
+8c51121 ONTS-124 Add Restore Config Feature
+8bfac0b ONTS-123 ONT floods mac address from LAN to PON
+b6e2398 ONTS-105: Fix bug build
+f384a4d ONTS-105: Add MIB Upload for ALU and HUAWEI
+3d9de2e ONTS-105: MIB Upload for DASAN
+6eaa8c9 ONTS-87, ONTS-105: Fix bug crash and Add MIB Upload for ZTE
+11eeeaa ONTS-29: Porting Auto Detect OLT (Improve and fix bug)
+7095858 ONTS-87:Modify default romfile for XPON and GPON node
+564c31c ONTS-29: Porting Detect OLT
+96751b4 ONTS-122 Bandsteering on web UI (p2)
+22484c8 ONTS-122 Bandsteering on web UI
+b6c0d0f ONTS-98: [Band-Steering] Enable band-steering.
+2d49e92 ONTS-56 Add Backup Config Feature
+ff8bef6 ONTS-34: Config ALARM led
+1cde32b ONTS-94: Porting button (Part 2)
+bfbef4e ONTS-94: Fix mt7615d crash
+b991eca ONTS-52, ONTS-63, ONTS-118 Access from WAN, SPI firewall and maximum sessions issue
+0798598 ONTS-44 [Web UI] Device Information>Display incorrect WAN interface
+0a3780b ONTS-94: Add button for rst, wlan, wps
+142333a ONTS-51 Redefine LAN port index
+4467090 ONTS-37: Porting libvtcom
+6540128 ONTS-36: Porting boot-reason module (P5)
+a3e62bf ONTS-36: Porting boot-reason module (P4)
+5b9cd2d ONTS-35: Porting led module (Phase 2)
+f1a9668 ONTS-72 PPPoE keep alive and reconnection mechanics is different from technical requirements.
+5627665 ONTS-36: Porting boot-reason module (P3)
+ae3e68b ONTS-36: Porting boot-reason module (P2)
+4ee7ee1 ONTS-36: Porting boot-reason module
+d496733 ONTS-34 : Porting upgrade FW (from web and OLT) - reset bootflag in case first update firm
+9499881 ONTS-35: Porting led module (Phase 1)
+33a84ac ONTS-34 : Porting upgrade FW (from web and OLT) - update when make all
+f3ae6a0 ONTS-34 : Porting upgrade FW (from web and OLT) - add update on web
+2230b52 ONTS-33 Implement mapping Ani (remove mapping nas0 side effect)
+df26118 ONTS-34 : Porting upgrade FW (from web and OLT) - add file firmware format
+aeeaf53 ONTS-34 : add file viettel firmware version
+c63513b Merge branch 'ont-dev' of ssh://10.55.104.17:22/data/vttek/git/ONT-MESH-7526 into ont-dev
+4d0ae2b ONTS-34 : Porting upgrade FW (from web and OLT)
+fd9e4fe ONTS-33 Implement mapping Ani (cont)
+7baf6f9 ONTS-33 Implement mapping Ani (remove)
+93554c9 ONTS-32: Fixbug: Error operation_class on 5G band when onboading (cont.)
+4b60b60 ONTS-16 Port Device Info page cont
+7aecebc ONTS-31 Set default password as gpon serial number
+35cc680 ONTS-30 Porting System Log page
+1bae024 ONTS-33 Implement mapping Ani
+85466ac ONTS-32: Fixbug: Error operation_class on 5G band when onboading
+d9826ec ONTS-26:Fixbug: Agent can not get IP from controller when mesh done
+d302002 ONTS-28 Auto-provision, support 4 iphosts, config account passwd wan pppoe
+c5f2dea ONTS-17 Switch to new Web authentication method (cont)
+20d1cf3 ONTS-16 ONTS-27 Porting Current Users and fix some device info bugs
+ac8d357 ONTS-25: Fixbug: Can't disable IPv4 DHCP server
+0541614 ONTS-16 Porting Device Info page (cont)
+1221b94 ONTS-24: Porting Portforwarding and DMZ
+e3f702a ONTS-23: Remove OOB reset at wifi page
+08665fd ONTS-23: Edit bandwidth and web ui of wlan page
+585b97d ONTS-22 Change how wifi pages displayed when disable or enable Mesh
+4ca0a9c ONTS-22 Change how wifi pages displayed when disable or enable Mesh
+34efb78 ONTS-21 Porting System Time Page
+e7fd7c5 ONTS-20 Porting Administration Page
+609ee22 ONTS-19: Change backhaul and fronthaul follow VHT'design
+d8dc8ad ONTS-17 Switch to new Web authentication method
+817543f ONS-18:Fixbug: Autochannel 2G error when mesh
+f9a3259 ONTS-16 Porting Device Info page
+82fc3e6 ONTS-12 HTTPS for web UI (cont.)
+3e17787 ONTS-12 HTTPS for web UI
+6628de6 ONTS-11: Enable 802.11kvr (cont.)
+144d48b ONTS-13: Add Log for PON-OMCI
+0854434 ONTS-11: Enable 802.11kvr
+c14af38 ONTS-14: Add log wifi module for debug
+a501eaa ONTS-6 Porting web UI from 7528 (cont.)
+af458b2 ONTS-9:Merge commit Porting OMCI source
+7c09329 ONTS-6 Porting web UI from 7528
+a4d0dfb ONTS-10: Porting mesh source code and improve mesh log
+89c7529 ONTS-9: Porting OMCI source
+0575148 ONTS-08: Porting tcpdump
+0d27867 ONTS-07: Porting signal.log for debug daemon crash
+5badd2d ONTS-05: Change tc_partition (BLOCK=9)
+c4ce1d0 ONTS-04: Change default account/passwd telnet and add statevalue
+b59e413 ONTS-03: Improve mesh log and create default romfile of wifi part
+483cbe3 ONTS-02: Remove rcS and romfile unuse (cont.)
+fd9c899 ONTS-02: Remove wifi driver unuse and add ePAeLNA file
+be0d3b4 ONTS-01: Improve log module
+afe1cb0 Add empty folder and edit MakeFile_Main
+cf518e7 Initial commit ONT-MESH-7526

@@ -1,0 +1,55 @@
+# auto-generated config file from /etc/config/dhcp
+# conf-file=/etc/dnsmasq.conf
+# dhcp-authoritative
+domain-needed
+log-queries=extra
+# localise-queries
+# read-ethers
+# enable-ubus=dnsmasq.yRestricted_dns
+expand-hosts
+bind-dynamic
+local-service
+# log-facility=/tmp/yRestricted_dns.log
+port=55
+# domain=lan
+# local=/lan/
+server=208.67.222.123
+address=/youtube.com/216.239.38.119
+address=/www.youtube.com/216.239.38.119
+address=/m.youtube.com/216.239.38.119
+address=/youtubei.googleapis.com/216.239.38.119
+address=/youtube.googleapis.com/216.239.38.119
+address=/www.youtube-nocookie.com/216.239.38.119
+address=/youtube.com/::ffff:216.239.38.119
+address=/www.youtube.com/::ffff:216.239.38.119
+address=/m.youtube.com/::ffff:216.239.38.119
+address=/youtubei.googleapis.com/::ffff:216.239.38.119
+address=/youtube.googleapis.com/::ffff:216.239.38.119
+address=/www.youtube-nocookie.com/::ffff:216.239.38.119
+auth-ttl=5
+max-ttl=5
+max-cache-ttl=5
+min-cache-ttl=5
+interface=br0
+# addn-hosts=/tmp/hosts
+# dhcp-leasefile=/tmp/yRestricted_dhcp.leases
+# resolv-file=/tmp/resolv.conf.d/resolv.conf.auto
+stop-dns-rebind
+rebind-localhost-ok
+# dhcp-broadcast=tag:needs-broadcast
+# conf-dir=/tmp/dnsmasq.d
+# user=dnsmasq
+# group=dnsmasq
+
+
+# dhcp-ignore-names=tag:dhcp_bogus_hostname
+# conf-file=/usr/share/dnsmasq/dhcpbogushostname.conf
+
+
+# bogus-priv
+# conf-file=/usr/share/dnsmasq/rfc6761.conf
+
+
+
+
+

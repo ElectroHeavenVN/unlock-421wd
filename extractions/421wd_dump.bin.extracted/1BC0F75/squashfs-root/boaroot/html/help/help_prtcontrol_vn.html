@@ -1,0 +1,21 @@
+<head>
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<p>Tính năng kiểm soát của phụ huynh giúp phụ huynh kiểm soát và quản lý hoạt động internet của con cái, bao gồm thời gian sử dụng internet, chặn lọc MAC, chặn lọc URL.</p>
+<p><b>Bảng kiểm soát của phụ huynh</b>: Mỗi hàng tương ứng với một quy tắc (tối đa 10 quy tắc)</p><ul>
+    <li><b>Tên luật</b>: Tên của quy tắc</li>
+    <li><b>Địa chỉ MAC</b>: Địa chỉ MAC của thiết bị, nếu có nhiều địa chỉ MAC được khai báo, chúng phải được cách nhau bởi dấu phẩy ",". Mếu địa chỉ MAC là FF:FF:FF:FF:FF:FF, quy tắc đó sẽ có hiệu lực với mọi địa chỉ MAC</li>
+    <li><b>Quyền truy cập</b>: Cho phép hoặc cấm truy cập internet đối với các thiết bị. Nếu quyền truy cập là "Chặn URL theo lịch", thiết bị được phép truy cập internet theo lịch trình đã khai báo. Nếu quyền truy cập là "Luôn luôn chặn", thiết bị không thể truy cập internet, các lịch trình bị bỏ qua.</li>
+    <li><b>URL</b>: Danh sách các URL bị chặn, cách nhau bởi dâu phẩy ",". Thiết bị sẽ không thể truy cập tới các URL này tại bất kì thời điểm nào, bỏ trống trường này nếu không có URL nào cần chặn.</li>
+    <li><b>Trạng thái</b>: Bât hoặc tắt quy tắc.</li>
+    <li><b>Schedules</b>: Nếu quyền truy cập là "Chặn URL theo lịch", thiết bị được phép truy cập internet theo các lịch trình được khai báo (tối đa 4 lịch trình).</li>
+    <li>Ngoài ra, đầu mỗi dòng có mỗi nút chọn ở đầu dòng, dùng để chọn các luật để xóa khi click nút "XÓA".</li>
+</ul>
+</body>

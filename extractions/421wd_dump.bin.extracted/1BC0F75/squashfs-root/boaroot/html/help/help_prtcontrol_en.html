@@ -1,0 +1,21 @@
+<head>
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<p>Parental control help parents monitor and manage their children's internet activities, including internet usage time, MAC filtering, and URL filtering.</p>
+<p><b>Parental Control Table</b>: Each row is corresponding to a Parental Control rule (maximum 10 rules)</p><ul>
+    <li><b>Rule name</b>: Name of the rule</li>
+    <li><b>MAC Address</b>: The MAC addresses of devices, if multiple MAC addresses are declared, must be separated by comma ",". If the MAC address is FF:FF:FF:FF:FF:FF, the rule will apply to all clients.</li>
+    <li><b>Access Policy</b>: Allows or denies access for a device. If Access Policy is set to "Scheduled Block based on URL", device access is allowed based on schedules. Access is enabled if there is no schedule defined. If Access Policy is set to "Always Blocks", defined schedules are ignored and no access is allowed for the device.</li>
+    <li><b>URL</b>: The list of blocked URLs, separated by comma ",". Client can not access to these URLs at any time, leave this field empty if no URLs are blocked.</li>
+    <li><b>Enable</b>: Enables or disables this rule.</li>
+    <li><b>Schedules</b>: If Access Policy is set to "Scheduled Block based on URL", clients are permitted to access the internet according to the declared schedules (maximum 4 schedules)</li>
+    <li>Besides, in the beginning of row, there is a checkbox to choose the rules which need to be erased when we click button "DELETE".</li>
+</ul>
+</body>

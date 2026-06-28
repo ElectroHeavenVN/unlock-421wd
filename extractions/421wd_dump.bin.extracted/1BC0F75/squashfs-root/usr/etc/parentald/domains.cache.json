@@ -1,0 +1,122 @@
+{
+	"TikTok": {
+		"inet": [
+			"71.18.247.0/24",
+			"71.18.248.0/24",
+			"71.18.249.0/24",
+			"71.18.250.0/24",
+			"71.18.251.0/24",
+			"71.18.252.0/24",
+			"71.18.253.0/24",
+			"71.18.255.0/24",
+			"103.136.220.0/22",
+			"103.136.221.0/24",
+			"103.136.222.0/23",
+			"103.136.223.0/24",
+			"118.26.132.0/24",
+			"199.103.24.0/24"
+		],
+		"inet6": [
+			"2404:9dc0:cd01::/48",
+			"2404:9dc0:cd02::/48",
+			"2404:9dc0:cd03::/48",
+			"2404:9dc0:cd04::/48"
+		],
+		"domains": [
+			"p16-tiktokcdn-com.akamaized.net",
+			"tiktok.com",
+			"tiktok.org",
+			"tiktokcdn.com",
+			"tiktokv.com",
+			"tiktokcdn-com.akamaized.net"
+		]
+	},
+	"Netflix": {
+		"inet": [
+			"45.57.0.0/17",
+			"45.57.8.0/23",
+			"45.57.9.0/24",
+			"45.57.40.0/23",
+			"45.57.41.0/24",
+			"45.57.76.0/23",
+			"45.57.77.0/24",
+			"45.57.86.0/23",
+			"45.57.87.0/24",
+			"45.57.90.0/23",
+			"45.57.91.0/24"
+		],
+		"inet6": [
+			"2a00:86c0::/32",
+			"2a00:86c0:2008::/47",
+			"2a00:86c0:2009::/48",
+			"2a00:86c0:2040::/47",
+			"2a00:86c0:2041::/48",
+			"2a00:86c0:2076::/47",
+			"2a00:86c0:2077::/48",
+			"2a00:86c0:2086::/47",
+			"2a00:86c0:2087::/48",
+			"2a00:86c0:2090::/47",
+			"2a00:86c0:2091::/48"
+		],
+		"domains": [
+			"flxvpn.net",
+			"netflix.com",
+			"netflixinvestor.com",
+			"netflix.net",
+			"netflixstudios.com",
+			"netflixtechblog.com",
+			"nflxext.com",
+			"nflximg.com",
+			"nflximg.net",
+			"nflxso.net",
+			"nflxvideo.net"
+		]
+	},
+	"Youtube": {
+		"domains": [
+			"googlevideo.com",
+			"yt.be",
+			"ytkids.app.goo.gl",
+			"ytimg.com",
+			"yt3.ggpht.com",
+			"yt4.ggpht.com",
+			"youtube-nocookie.com",
+			"youtubekids.com",
+			"youtubeeducation.com",
+			"youtube.googleapis.com",
+			"wide-youtube.l.google.com",
+			"video.l.google.com",
+			"video.google.com"
+		]
+	},
+	"Google": {
+		"domains": [
+			"gstatic.com",
+			"googledomains.com",
+			"googleads.g.doubleclick.net",
+			"googleadservices.com",
+			"googleapis.com",
+			"google.org",
+			"google.vn",
+			"google.com",
+			"google.com.vn"
+		]
+	},
+	"Facebook": {
+		"domains": [
+			"acebook.com",
+			"faacebook.com",
+			"facebook.net",
+			"fb.audio",
+			"fbcdn.net",
+			"fb.com",
+			"fb.gg",
+			"fbinfra.net",
+			"fb.me",
+			"fbpigeon.com",
+			"fbsbx.com",
+			"fbthirdpartypixel.com",
+			"fb.watch"
+		]
+	}
+}
