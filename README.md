@@ -1,89 +1,89 @@
 # Unlock-421wd
 
-Root shell + unlock **Viettel vG-421WD**.
+Root shell + mở khóa **Viettel vG-421WD**.
 
 
 ![](Assets/Viettel-vG-421WD.jpg)
 
-## Overview
+## Tổng quan
 
-This repository provides tools and scripts to gain root shell access on the **Viettel vG-421WD** GPON router. The process involves:
+Kho lưu trữ này cung cấp các công cụ và script để có quyền truy cập root shell trên router GPON **Viettel vG-421WD**. Quy trình bao gồm:
 
-1. Enabling a temporary telnet/SSH session through a vulnerability in the web admin panel.
-2. Enabling permanent root access from the temporary session.
-3. Disabling remote management (TR-069 / TMS).
-4. Optionally accessing the USB drive through the unpopulated USB port (comming soon).
+1. Bật phiên bản telnet/SSH tạm thời thông qua lỗ hổng trên trang quản trị web.
+2. Bật quyền root vĩnh viễn từ phiên tạm thời.
+3. Tắt quản lý từ xa (TR-069 / TMS).
+4. Tùy chọn: Truy cập ổ USB thông qua cổng USB chưa được hàn (sắp ra mắt).
 
-## Router Info
+## Thông tin Router
 
-| Property | Value |
+| Thuộc tính | Giá trị |
 |---|---|
-| **Device** | Viettel vG-421WD |
+| **Thiết bị** | Viettel vG-421WD |
 | **Firmware** | `V2803241218` |
 | **Kernel** | Linux 3.18.21 |
 
-## Requirements
+## Yêu cầu
 
-- A web browser (for the admin panel exploit)
-- Access to the router's web interface (default: `http://192.168.1.1`)
-- An SSH/Telnet client (e.g. PuTTY, OpenSSH)
+- Trình duyệt web (để đăng nhập và khai thác lỗ hổng trên trang quản trị)
+- Truy cập giao diện web của router (mặc định: `http://192.168.1.1`)
+- Client SSH/Telnet (PuTTY, OpenSSH,...)
 
-# Step 0 - Clone the Repository
+# Bước 0 - Clone kho lưu trữ
 
 ```bash
 git clone https://github.com/ElectroHeavenVN/unlock-421wd.git
 cd unlock-421wd
 ```
 
-## Step 1 - Enable Temporary Telnet via Web UI
+## Bước 1 - Bật Telnet tạm thời qua giao diện Web
 
-1. Log in to the router's web admin panel (`http://192.168.1.1`).
-2. Open **Developer Tools** (F12) → **Console**.
-3. Login to the web panel (default username: `admin`, password: check the label on the back of the router).
-4. Paste the contents of **[`Unlock temp telnet.js`](Unlock%20temp%20telnet.js)** and press **Enter**.
-5. Connect via telnet or SSH:
+1. Đăng nhập vào trang quản trị web của router.
+2. Mở **Công cụ dành cho nhà phát triển** (F12) → **Console**.
+3. Đăng nhập vào trang quản trị (tên đăng nhập mặc định: `admin`, mật khẩu: xem ở sau router).
+4. Dán nội dung của **[`Unlock temp telnet.js`](Unlock%20temp%20telnet.js)** và nhấn **Enter**.
+5. Kết nối qua telnet hoặc SSH:
 
 ```bash
 telnet 192.168.1.1
-# or
+# hoặc
 ssh admin@192.168.1.1 -p 9777
 ```
-Password for telnet/SSH: `euclid@vht380`.
+Mật khẩu cho telnet/SSH: `euclid@vht380`.
 
-> **Note:** The temporary telnet session has a timeout. Use Step 2 to make it permanent.
+> **Lưu ý:** Phiên shell tạm thời có giới hạn thời gian. Sử dụng Bước 2 để mở vĩnh viễn.
 
-## Step 2 - Unlock & Disable Remote Management
+## Bước 2 - Mở khóa & Tắt quản lý từ xa
 
-Once you have a shell, upload and run **[`unlock_421wd.sh`](unlock_421wd.sh)** on the device. This script:
+Sau khi có shell, tải script **[`unlock_421wd.sh`](unlock_421wd.sh)** vào router. Script này:
 
-1. **Enables permanent telnet** - Sets the system state so telnet stays enabled across reboots.
-2. **Disables TR-069 (CWMP)** - Prevents Viettel's ACS server from remotely reconfiguring or updating the router.
-3. **Disables TMSClient (MQTT)** - Stops the router from reporting telemetry to Viettel's cloud.
+1. **Bật telnet vĩnh viễn** - Đặt trạng thái hệ thống để telnet vẫn bật qua các lần khởi động lại.
+2. **Tắt TR-069 (CWMP)** - Ngăn máy chủ ACS của Viettel cấu hình lại hoặc cập nhật router từ xa.
+3. **Tắt TMSClient (MQTT)** - Ngăn router gửi dữ liệu từ xa đến Viettel cloud.
 
 ```bash
-# on your local Linux machine:
+# trên máy Linux cục bộ:
 python3 -m http.server 8000
 ```
-or:
+hoặc:
 ```cmd
-REM on your local Windows machine:
+REM trên máy Windows cục bộ:
 python -m http.server 8000
 ``` 
 
 ```bash
-# On the router shell:
-curl -o /tmp/unlock_421wd.sh http://<your_pc_ip>:8000/unlock_421wd.sh
+# Trên shell của router:
+curl -o /tmp/unlock_421wd.sh http://<địa_chỉ_ip_pc_của_bạn>:8000/unlock_421wd.sh
 chmod +x /tmp/unlock_421wd.sh
 /tmp/unlock_421wd.sh
 ```
 
-## Firmware Analysis
+## Phân tích Firmware
 
-The full firmware dump (`421wd_dump.bin` inside `421wd_dump.7z`) can be analyzed with **binwalk**. Parts of the extracted data are included in the `extractions/` folder.
+Bản dump firmware đầy đủ (`421wd_dump.bin` bên trong `421wd_dump.7z`) có thể được phân tích bằng **binwalk**. Một phần dữ liệu đã được trích xuất có trong thư mục `extractions/`.
 
-## Disclaimer
+## Từ chối trách nhiệm
 
-This project is for **educational and research purposes only**. Modifying your router's firmware or configuration may void your warranty, brick your device, or violate your ISP's terms of service. Use at your own risk. The authors are not responsible for any damage caused by the use of these tools.
+Dự án này chỉ dành cho **mục đích giáo dục và nghiên cứu**. Việc sửa đổi firmware hoặc cấu hình của router có thể làm mất bảo hành, làm hỏng thiết bị, hoặc vi phạm điều khoản dịch vụ của Viettel. Bạn phải tự chịu trách nhiệm. Các tác giả không chịu trách nhiệm cho bất kỳ thiệt hại nào gây ra bởi việc sử dụng các công cụ này.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Giấy phép
+Dự án này được cấp phép theo Giấy phép MIT - xem tệp [LICENSE](LICENSE) để biết chi tiết.
