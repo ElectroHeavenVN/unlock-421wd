@@ -2,6 +2,7 @@
 
 Root shell + mở khóa **Viettel vG-421WD**.
 
+[**Xem video hướng dẫn tại đây.**](Assets/Unlock-421wd.mp4)
 
 ![](Assets/Viettel-vG-421WD.jpg)
 

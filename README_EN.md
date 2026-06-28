@@ -2,6 +2,7 @@
 
 Root shell + unlock **Viettel vG-421WD**.
 
+[**Watch the tutorial video here.**](Assets/Unlock-421wd.mp4)
 
 ![](Assets/Viettel-vG-421WD.jpg)
 
